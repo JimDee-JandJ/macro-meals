@@ -21,14 +21,37 @@
   // ratio[i] is the user's tweak to one ingredient; whole is the portion size;
   // servings is how many portions are being made (more servings = more food,
   // same macros per serving).
-  const state = { ratio: ings.map(() => 1), whole: 1, servings, view: 'serving' };
+  const state = { ratio: ings.map(() => 1), whole: 1, servings, view: 'serving', group: { protein: 1, carbs: 1, fat: 1 } };
   const original = MM.recipeMacros(recipe);
   const MAX_SERVINGS = 20;
 
   const isWeight = u => u === 'g' || u === 'ml';
   const stepFor = ing => isWeight(ing.unit) ? (ing.qty >= 50 ? 5 : 1) : 0.25;
   const servingFactor = () => state.servings / servings;
-  const qtyOf = i => ings[i].qty * state.ratio[i] * state.whole * servingFactor();
+
+  // Each ingredient belongs to the macro that supplies most of its calories, so the
+  // protein / carbs / fat controls can scale "the protein bits", "the carb bits", etc.
+  const GROUPS = { protein: { label: 'Protein', step: 5 }, carbs: { label: 'Carbs', step: 5 }, fat: { label: 'Fat', step: 2 } };
+  // Vegetables, sauces and seasonings stay put: cutting carbs should mean less rice, not less veg.
+  const KEEP = /onion|pepper|tomato|mushroom|broccoli|carrot|lettuce|salad|cucumber|spinach|rocket|watercress|veg|courgette|leek|cauliflower|green bean|cabbage|gherkin|jalape|sauce|soy|vinegar|lemon|seasoning|stock|gravy|puree|purée|passata|salsa|sriracha|ketchup|mustard|spice|herb/i;
+  const totals = ings.reduce((t, ing) => {
+    if (!ing.fixed) MM.MACROS.forEach(k => { t[k] += ing[k] || 0; });
+    return t;
+  }, { kcal: 0, protein: 0, carbs: 0, fat: 0 });
+  const dominant = ings.map(ing => {
+    if (ing.fixed) return null;
+    const cal = { protein: (ing.protein || 0) * 4, carbs: (ing.carbs || 0) * 4, fat: (ing.fat || 0) * 9 };
+    const best = Object.keys(cal).reduce((a, b) => (cal[b] > cal[a] ? b : a));
+    return cal[best] > 0 ? best : null;
+  });
+  const groupOf = dominant.map((g, i) => {
+    if (!g) return null;
+    const ing = ings[i];
+    const share = totals[g] ? (ing[g] || 0) / totals[g] : 0;  // ignore ingredients that barely supply this macro
+    return KEEP.test(ing.name) || share < 0.05 ? null : g;
+  });
+  const groupFactor = i => (groupOf[i] ? state.group[groupOf[i]] : 1);
+  const qtyOf = i => ings[i].qty * state.ratio[i] * state.whole * servingFactor() * groupFactor(i);
   const quantities = () => ings.map((ing, i) => ing.fixed ? 0 : qtyOf(i));
   const scale = (m, f) => Object.fromEntries(MM.MACROS.map(k => [k, m[k] * f]));
   // recipeMacros divides by the book's servings; re-divide by the servings being made.
@@ -98,6 +121,26 @@
               <span class="scaler-note">Bigger or smaller plates: changes the macros per serving</span>
             </div>
           </div>
+          <div class="macro-tweaks">
+            <div class="tweaks-head">
+              <span class="scaler-label">Adjust macros</span>
+              <span class="scaler-note">Per serving. Each control changes the ingredients that are mostly that macro.</span>
+            </div>
+            <div class="tweaks">
+              ${Object.entries(GROUPS).map(([k, g]) => `
+                <div class="tweak ${k[0]}" data-group="${k}">
+                  <div class="tweak-top">
+                    <span class="tweak-label">${g.label}</span>
+                    <div class="stepper">
+                      <button type="button" data-tweak="-1" aria-label="Less ${g.label.toLowerCase()}">−</button>
+                      <output id="tw-${k}">–</output>
+                      <button type="button" data-tweak="1" aria-label="More ${g.label.toLowerCase()}">+</button>
+                    </div>
+                  </div>
+                  <p class="tweak-ings" id="twi-${k}"></p>
+                </div>`).join('')}
+            </div>
+          </div>
           <p class="hint">Drag an ingredient's slider to change just that ingredient. Amounts are for the whole batch.</p>
           <ul class="ing-list" id="ing-list"></ul>
         </section>
@@ -156,6 +199,17 @@
   const factMakes = document.getElementById('fact-makes');
   const factBatch = document.getElementById('fact-batch');
   const segBtns = [...document.querySelectorAll('.seg [data-view]')];
+
+  // Per-serving grams of a macro coming from one group's ingredients.
+  const groupMacro = (g, macro = g) => ings.reduce((sum, ing, i) =>
+    groupOf[i] === g ? sum + MM.ingredientMacros(ing, qtyOf(i))[macro] : sum, 0) / state.servings;
+
+  Object.keys(GROUPS).forEach(g => {
+    const names = ings.filter((_, i) => groupOf[i] === g).map(ing => ing.name.replace(/\s*\(.*?\)\s*/g, ' ').trim());
+    const el = document.getElementById(`twi-${g}`);
+    el.textContent = names.length ? `Changes: ${names.join(', ')}` : 'No ingredients are mostly ' + GROUPS[g].label.toLowerCase();
+    if (!names.length) document.querySelector(`.tweak[data-group="${g}"]`).classList.add('is-empty');
+  });
   const targetInputs = [...document.querySelectorAll('[data-target]')];
 
   list.innerHTML = ings.map((ing, i) => {
@@ -190,7 +244,7 @@
       if (ing.fixed) return;
       const slider = document.getElementById(`s${i}`);
       const q = qtyOf(i);
-      slider.max = Math.max(ing.qty * 3 * Math.max(1, state.whole) * servingFactor(), q);
+      slider.max = Math.max(ing.qty * 3 * Math.max(1, state.whole) * servingFactor() * Math.max(1, groupFactor(i)), q);
       slider.value = q;
       document.getElementById(`q${i}`).innerHTML = fmtQty(ing, q) +
         (Math.abs(q - ing.qty) > 1e-6 ? ` <s>${fmtQty(ing, ing.qty)}</s>` : '');
@@ -200,6 +254,12 @@
     });
 
     const m = perServing();
+    Object.keys(GROUPS).forEach(g => {
+      document.getElementById(`tw-${g}`).textContent = `${MM.round(m[g])}g`;
+      const tw = document.querySelector(`.tweak[data-group="${g}"]`);
+      tw.querySelector('[data-tweak="-1"]').disabled = tw.classList.contains('is-empty') || groupMacro(g) < 0.5;
+      tw.querySelector('[data-tweak="1"]').disabled = tw.classList.contains('is-empty') || state.group[g] >= 4;
+    });
     const perChanged = MM.MACROS.some(k => Math.round(m[k]) !== Math.round(original[k]));
     methodNote.hidden = !perChanged && state.servings === servings;
 
@@ -247,7 +307,7 @@
     const li = e.target.closest('.ing');
     if (!li || e.target.type !== 'range') return;
     const i = +li.dataset.i;
-    state.ratio[i] = +e.target.value / (ings[i].qty * state.whole * servingFactor() || 1);
+    state.ratio[i] = +e.target.value / (ings[i].qty * state.whole * servingFactor() * groupFactor(i) || 1);
     render();
   });
 
@@ -262,10 +322,23 @@
 
   segBtns.forEach(b => b.addEventListener('click', () => { state.view = b.dataset.view; render(); }));
 
+  // Step a macro by a fixed number of grams per serving by scaling its ingredient group.
+  document.querySelector('.tweaks').addEventListener('click', e => {
+    const btn = e.target.closest('[data-tweak]');
+    if (!btn || btn.disabled) return;
+    const g = btn.closest('.tweak').dataset.group;
+    const now = groupMacro(g);
+    if (now <= 0) return;
+    const want = Math.max(0, now + GROUPS[g].step * +btn.dataset.tweak);
+    state.group[g] = Math.min(4, state.group[g] * (want / now));
+    render();
+  });
+
   document.getElementById('reset').addEventListener('click', () => {
     state.ratio = ings.map(() => 1);
     state.whole = 1;
     state.servings = servings;
+    state.group = { protein: 1, carbs: 1, fat: 1 };
     render();
   });
 

@@ -215,6 +215,7 @@ def clean_name(s):
     s = re.sub(r"\(excl\.[^)]*\)?", "", s)
     s = re.sub(r"\s+", " ", s).strip(" ,-")
     s = re.sub(r"^(of|drained|tsp)\s+", "", s, flags=re.I)
+    s = re.sub(r"\bsauc\b", "sauce", s)
     m = re.match(r"^\(([^)]*)\)\s*(.+)$", s)  # "(1 bag) Frozen raspberries" -> "Frozen raspberries (1 bag)"
     if m:
         s = f"{m.group(2)} ({m.group(1)})"

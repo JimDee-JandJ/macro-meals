@@ -298,3 +298,18 @@ input[type="range"] { accent-color: var(--accent); }
 .seg button[aria-selected="true"] { background: #fff; color: var(--ink); box-shadow: 0 1px 3px rgba(0,0,0,.12); }
 .view-caption { margin: 0 0 6px; font-size: .78rem; font-weight: 600; text-transform: uppercase; letter-spacing: .06em; color: var(--ink-3); }
 .targets h3 small { font-weight: 500; color: var(--ink-3); }
+
+/* Protein / carbs / fat tweaks */
+.macro-tweaks { margin-top: 10px; background: var(--bg-soft); border-radius: 12px; padding: 12px 16px; }
+.tweaks-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 12px; margin-bottom: 10px; }
+.tweaks { display: grid; gap: 10px; }
+@media (min-width: 640px) { .tweaks { grid-template-columns: repeat(3, 1fr); } }
+.tweak { background: #fff; border-radius: 10px; padding: 10px 12px; border-top: 3px solid; }
+.tweak.p { border-color: var(--protein); }
+.tweak.c { border-color: var(--carbs); }
+.tweak.f { border-color: var(--fat); }
+.tweak-top { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.tweak-label { font-weight: 600; font-size: .88rem; }
+.tweak .stepper output { min-width: 4ch; }
+.tweak-ings { margin: 6px 0 0; font-size: .72rem; color: var(--ink-3); line-height: 1.35; }
+.tweak.is-empty { opacity: .55; }
