@@ -265,3 +265,6 @@ input[type="range"] { accent-color: var(--accent); }
   .mobile-bar .f strong { color: var(--fat); }
   body:has(.mobile-bar) .site-footer { padding-bottom: 90px; }
 }
+
+.hero-credit { margin-top: 10px !important; font-size: .88rem !important; color: var(--ink-3) !important; }
+.hero-credit a { color: var(--accent); }

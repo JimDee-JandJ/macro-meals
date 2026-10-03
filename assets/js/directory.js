@@ -5,6 +5,7 @@
   const sortSel = document.getElementById('sort');
   const mealChips = document.getElementById('meal-chips');
   const ingredientChips = document.getElementById('ingredient-chips');
+  const tagChips = document.getElementById('tag-chips');
   const bookSel = document.getElementById('book');
   const bookWrap = document.getElementById('book-wrap');
   const minProtein = document.getElementById('min-protein');
@@ -29,10 +30,16 @@
     const ia = MEAL_ORDER.indexOf(a), ib = MEAL_ORDER.indexOf(b);
     return (ia < 0 ? 99 : ia) - (ib < 0 ? 99 : ib) || a.localeCompare(b);
   });
-  const ingredients = uniq('mainIngredient').sort();
+  const ingredients = uniq('mainIngredient').sort((a, b) =>
+    (a === 'Other') - (b === 'Other') || a.localeCompare(b));
   const books = uniq('book').sort();
+  const TAG_ORDER = ['Meal prep', 'One dish', 'Slow cooker', '5 mins or less', 'Deli container'];
+  const tags = [...new Set(recipes.flatMap(r => r.tags || []))].sort((a, b) => {
+    const ia = TAG_ORDER.indexOf(a), ib = TAG_ORDER.indexOf(b);
+    return (ia < 0 ? 99 : ia) - (ib < 0 ? 99 : ib) || a.localeCompare(b);
+  });
 
-  const state = { meal: 'All', ingredient: 'All' };
+  const state = { meal: 'All', ingredient: 'All', tag: 'All' };
 
   function renderChips(el, values, key) {
     el.innerHTML = ['All', ...values].map(v =>
@@ -48,6 +55,8 @@
   }
   renderChips(mealChips, meals, 'meal');
   renderChips(ingredientChips, ingredients, 'ingredient');
+  if (tags.length) renderChips(tagChips, tags, 'tag');
+  else tagChips.parentElement.hidden = true;
 
   if (books.length > 1) {
     bookSel.innerHTML = '<option value="All">All books</option>' +
@@ -94,6 +103,7 @@
     let list = recipes.filter(r =>
       (state.meal === 'All' || r.meal === state.meal) &&
       (state.ingredient === 'All' || r.mainIngredient === state.ingredient) &&
+      (state.tag === 'All' || (r.tags || []).includes(state.tag)) &&
       (book === 'All' || r.book === book) &&
       (!vegOnly.checked || r.vegetarian) &&
       r._m.protein >= minP &&
@@ -125,8 +135,10 @@
     maxKcal.value = maxKcal.max;
     state.meal = 'All';
     state.ingredient = 'All';
+    state.tag = 'All';
     renderChips(mealChips, meals, 'meal');
     renderChips(ingredientChips, ingredients, 'ingredient');
+    if (tags.length) renderChips(tagChips, tags, 'tag');
     render();
   });
 

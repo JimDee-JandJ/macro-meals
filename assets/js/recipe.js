@@ -60,6 +60,7 @@
           <span class="tag">${MM.esc(recipe.meal)}</span>
           <span class="tag">${MM.esc(recipe.mainIngredient)}</span>
           ${vegLabel ? `<span class="tag">${vegLabel}</span>` : ''}
+          ${(recipe.tags || []).map(t => `<span class="tag">${MM.esc(t)}</span>`).join('')}
         </div>
       </div>
       <div class="recipe-img">${MM.imageHtml(recipe)}</div>

@@ -25,8 +25,10 @@ def slug(text):
     return re.sub(r"[^a-z0-9]+", "-", text.lower().replace("&", "and")).strip("-")
 
 
-def estimate(qty, food):
+def estimate(qty, unit, food, grams_each=None):
     basis, *values = FOODS[food]
+    if basis == 100 and grams_each:  # counted item of a per-100g food
+        qty = qty * grams_each
     return [v * qty / basis for v in values]
 
 
@@ -36,9 +38,9 @@ def build_recipe(book, r, warnings):
     for ing in r["ingredients"]:
         if len(ing) == 1:
             continue
-        qty, unit, food, name = ing
+        qty, unit, food, name = ing[:4]
         scalable.append(ing)
-        raw.append(estimate(qty, food))
+        raw.append(estimate(qty, unit, food, ing[4] if len(ing) > 4 else None))
 
     targets = [m * servings for m in r["macros"]]
     totals = [sum(col) for col in zip(*raw)]
@@ -53,15 +55,19 @@ def build_recipe(book, r, warnings):
         if len(ing) == 1:
             ingredients.append({"name": ing[0], "fixed": True})
             continue
-        qty, unit, food, name = ing
+        qty, unit, food, name = ing[:4]
         est = next(raw_iter)
         entry = {"name": name, "qty": qty, "unit": unit}
         for macro, value, f in zip(MACROS, est, factors):
             entry[macro] = round(value * f, 2)
         ingredients.append(entry)
 
+    rid = slug(r["title"])
+    image = r.get("image")
+    if not image and (ROOT / "assets" / "img" / f"{rid}.jpg").exists():
+        image = f"{rid}.jpg"
     return {
-        "id": slug(r["title"]),
+        "id": rid,
         "title": r["title"],
         "book": book,
         "meal": r["meal"],
@@ -71,7 +77,8 @@ def build_recipe(book, r, warnings):
         "price": r.get("price"),
         "shop": r.get("shop"),
         "description": r.get("description"),
-        "image": r.get("image"),
+        "image": image,
+        "tags": r.get("tags") or [],
         "macros": dict(zip(MACROS, r["macros"])),
         "ingredients": ingredients,
         "instructions": r["steps"],
@@ -89,10 +96,12 @@ def main():
         for r in mod.RECIPES:
             recipes.append(build_recipe(mod.BOOK, r, warnings))
 
-    ids = [r["id"] for r in recipes]
-    dupes = {i for i in ids if ids.count(i) > 1}
-    if dupes:
-        sys.exit(f"Duplicate recipe ids: {', '.join(sorted(dupes))}")
+    # The same recipe name can appear in more than one book.
+    seen = set()
+    for r in recipes:
+        if r["id"] in seen:
+            r["id"] = f"{r['id']}-{slug(r['book'])}"
+        seen.add(r["id"])
 
     out = ROOT / "assets" / "data" / "recipes.json"
     out.write_text(json.dumps(recipes, indent=2, ensure_ascii=False) + "\n")
