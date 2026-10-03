@@ -3,7 +3,7 @@
 A clean, filterable recipe site with full macro breakdowns and adjustable ingredients.
 
 - **Directory** (`index.html`): every tile shows the recipe photo and calories, protein, carbs and fat per serving. Filter by meal, main ingredient, style (meal prep, one dish, slow cooker, 5 mins or less, deli container), book, minimum protein, maximum calories and vegetarian, and sort by protein, calories, protein per calorie or price.
-- **Recipe page** (`recipe.html?id=…`): each ingredient has a slider, and the macros recalculate as you drag. **Servings** (− / +) makes more or fewer portions: amounts and batch totals scale, macros per serving stay the same. **Portion size** makes each serving bigger or smaller, so the macros per serving change. The macros panel switches between per serving and whole batch. Enter your meal targets (saved in your browser) to see how the recipe compares, and use **Fit to calories** or **Fit to protein** to scale it to a target.
+- **Recipe page** (`recipe.html?id=…`): each ingredient has a slider, and the macros recalculate as you drag. **Servings** (− / +) makes more or fewer portions: amounts and batch totals scale, macros per serving stay the same. **Portion size** makes each serving bigger or smaller, so the macros per serving change. The macros panel switches between per serving and whole batch. **Adjust macros** steps protein, carbs or fat up or down per serving by scaling the ingredients that are mostly that macro (vegetables, sauces and seasonings are left alone). Enter your meal targets (saved in your browser) to see how the recipe compares, and use **Fit to calories** or **Fit to protein** to scale it to a target.
 
 ## Recipes
 

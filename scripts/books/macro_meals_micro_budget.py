@@ -964,7 +964,7 @@ RECIPES = [{'title': 'Biscoff Protein Oats',
                   (2.0, 'onion', 'onion', 'White onions'),
                   (2.0, 'pepper', 'pepper', 'Peppers'),
                   (60.0, 'g', 'spring_onions', 'Spring onions'),
-                  (60.0, 'ml', 'soy_sauce', 'Light soy sauc'),
+                  (60.0, 'ml', 'soy_sauce', 'Light soy sauce'),
                   (1.0, 'packet', 'seasoning_pack', 'Salt n pepper seasoning'),
                   (15.0, 'g', 'cornflour', 'Cornflour')],
   'steps': ['Dice up your chicken breast into 2cm cubes. Season with salt, pepper, garlic powder, 1/3 of your SnP '
