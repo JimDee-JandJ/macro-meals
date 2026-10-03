@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Macro Meals</title>
+  <meta name="description" content="High-protein recipes with full macro breakdowns and adjustable ingredients.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="logo" href="index.html">Macro<span>Meals</span></a>
+      <label class="search">
+        <span class="sr-only">Search recipes</span>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <input id="search" type="search" placeholder="Search recipes or ingredients">
+      </label>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="wrap">
+      <h1>Recipes that fit your macros</h1>
+      <p>Every recipe shows its full macro breakdown. Open one to adjust the ingredients and watch the numbers change.</p>
+    </div>
+  </section>
+
+  <main class="wrap">
+    <section class="filters" aria-label="Filters">
+      <div class="filter-row">
+        <span class="filter-label">Meal</span>
+        <div class="chips" id="meal-chips"></div>
+      </div>
+      <div class="filter-row">
+        <span class="filter-label">Main ingredient</span>
+        <div class="chips" id="ingredient-chips"></div>
+      </div>
+      <div class="filter-row controls">
+        <label class="range-ctl">
+          <span>Min protein <output id="min-protein-out">Any</output></span>
+          <input type="range" id="min-protein" min="0" max="80" step="5" value="0">
+        </label>
+        <label class="range-ctl">
+          <span>Max calories <output id="max-kcal-out">Any</output></span>
+          <input type="range" id="max-kcal" min="200" step="50">
+        </label>
+        <label class="select-ctl" id="book-wrap">
+          <span>Book</span>
+          <select id="book"></select>
+        </label>
+        <label class="select-ctl">
+          <span>Sort by</span>
+          <select id="sort">
+            <option value="title">A–Z</option>
+            <option value="protein-desc">Most protein</option>
+            <option value="ratio">Best protein per calorie</option>
+            <option value="kcal-asc">Fewest calories</option>
+            <option value="kcal-desc">Most calories</option>
+            <option value="price-asc">Cheapest</option>
+          </select>
+        </label>
+        <label class="check-ctl"><input type="checkbox" id="veg-only"> Vegetarian only</label>
+        <button type="button" class="link-btn" id="clear">Clear all</button>
+      </div>
+    </section>
+
+    <p class="count" id="count"></p>
+    <div class="grid" id="grid"></div>
+  </main>
+
+  <footer class="site-footer"><div class="wrap">Macro Meals</div></footer>
+
+  <script src="assets/js/common.js"></script>
+  <script src="assets/js/directory.js"></script>
+</body>
+</html>

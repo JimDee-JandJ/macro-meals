@@ -1,0 +1,2958 @@
+[
+  {
+    "id": "biscoff-protein-oats",
+    "title": "Biscoff Protein Oats",
+    "book": "Macro Meals, Micro Budget",
+    "meal": "Breakfast",
+    "mainIngredient": "Oats",
+    "vegetarian": "V",
+    "servings": 1,
+    "price": 0.9,
+    "shop": "Aldi / B&M Bargains",
+    "description": null,
+    "image": null,
+    "macros": {
+      "kcal": 440,
+      "protein": 30,
+      "carbs": 49,
+      "fat": 13
+    },
+    "ingredients": [
+      {
+        "name": "Oats",
+        "qty": 40,
+        "unit": "g",
+        "kcal": 155.7,
+        "protein": 5.14,
+        "carbs": 26.94,
+        "fat": 2.94
+      },
+      {
+        "name": "Protein powder (1 scoop)",
+        "qty": 30,
+        "unit": "g",
+        "kcal": 124.56,
+        "protein": 23.14,
+        "carbs": 2.69,
+        "fat": 1.77
+      },
+      {
+        "name": "Milk (almond used)",
+        "qty": 150,
+        "unit": "ml",
+        "kcal": 20.24,
+        "protein": 0.59,
+        "carbs": 0.17,
+        "fat": 1.62
+      },
+      {
+        "name": "Biscoff spread",
+        "qty": 10,
+        "unit": "g",
+        "kcal": 60.62,
+        "protein": 0.14,
+        "carbs": 6.4,
+        "fat": 3.73
+      },
+      {
+        "name": "Biscoff biscuits",
+        "qty": 2,
+        "unit": "biscuit",
+        "kcal": 78.89,
+        "protein": 0.99,
+        "carbs": 12.8,
+        "fat": 2.94
+      }
+    ],
+    "instructions": [
+      "Combine the oats and milk in a pan and cook on a medium heat for 3 minutes.",
+      "Take off the heat. Crush 1 Biscoff biscuit and stir it in with the protein powder until fully combined. Adjust the consistency with water or more milk.",
+      "Spoon into a bowl, crush the other biscuit and scatter the crumbs over the top.",
+      "Loosen the Biscoff spread with a dash of warm water and pour it over the oats."
+    ],
+    "tips": "Too thin? Add more protein powder. Too thick? Add more milk or water.",
+    "swaps": "Use a vegan protein powder to make it vegan. Aldi's Biscoff biscuits and spread are both vegan friendly."
+  },
+  {
+    "id": "nutella-and-banana-protein-oats",
+    "title": "Nutella & Banana Protein Oats",
+    "book": "Macro Meals, Micro Budget",
+    "meal": "Breakfast",
+    "mainIngredient": "Oats",
+    "vegetarian": "V",
+    "servings": 1,
+    "price": 1.01,
+    "shop": "Aldi / B&M Bargains",
+    "description": null,
+    "image": null,
+    "macros": {
+      "kcal": 482,
+      "protein": 33,
+      "carbs": 70,
+      "fat": 8
+    },
+    "ingredients": [
+      {
+        "name": "Oats",
+        "qty": 40,
+        "unit": "g",
+        "kcal": 162.14,
+        "protein": 6.06,
+        "carbs": 28.21,
+        "fat": 2.24
+      },
+      {
+        "name": "Vanilla protein powder (1 scoop)",
+        "qty": 25,
+        "unit": "g",
+        "kcal": 108.1,
+        "protein": 22.74,
+        "carbs": 2.35,
+        "fat": 1.12
+      },
+      {
+        "name": "Milk (almond used)",
+        "qty": 150,
+        "unit": "ml",
+        "kcal": 21.08,
+        "protein": 0.7,
+        "carbs": 0.18,
+        "fat": 1.23
+      },
+      {
+        "name": "Cocoa powder",
+        "qty": 5,
+        "unit": "g",
+        "kcal": 18.92,
+        "protein": 1.28,
+        "carbs": 0.82,
+        "fat": 0.79
+      },
+      {
+        "name": "Medium banana",
+        "qty": 1,
+        "unit": "banana",
+        "kcal": 113.5,
+        "protein": 1.52,
+        "carbs": 31.74,
+        "fat": 0.3
+      },
+      {
+        "name": "Nutokka (Aldi's Nutella)",
+        "qty": 10,
+        "unit": "g",
+        "kcal": 58.26,
+        "protein": 0.7,
+        "carbs": 6.7,
+        "fat": 2.32
+      }
+    ],
+    "instructions": [
+      "Combine the oats and milk in a pan and cook on a medium heat for 3 minutes.",
+      "Take off the heat, add the cocoa and protein powder and mix until fully combined. Adjust the consistency with water or more milk.",
+      "Spoon into a bowl, smooth the top and lay the sliced banana over it.",
+      "Loosen the Nutokka with a dash of warm water and pour it over the oats."
+    ],
+    "tips": "Nutokka is Aldi's own version of Nutella.",
+    "swaps": "Use a vegan protein powder and leave out the Nutokka to make it vegan."
+  },
+  {
+    "id": "lemon-blueberry-cheesecake-overnight-weetabix",
+    "title": "Lemon-Blueberry Cheesecake Overnight Weetabix",
+    "book": "Macro Meals, Micro Budget",
+    "meal": "Breakfast",
+    "mainIngredient": "Weetabix",
+    "vegetarian": "V",
+    "servings": 2,
+    "price": 1.75,
+    "shop": "Aldi / Lidl",
+    "description": null,
+    "image": null,
+    "macros": {
+      "kcal": 390,
+      "protein": 29,
+      "carbs": 60,
+      "fat": 3
+    },
+    "ingredients": [
+      {
+        "name": "Wheat biscuits (Weetabix)",
+        "qty": 4,
+        "unit": "biscuit",
+        "kcal": 319.57,
+        "protein": 10.1,
+        "carbs": 59.88,
+        "fat": 2.08
+      },
+      {
+        "name": "Almond milk",
+        "qty": 160,
+        "unit": "ml",
+        "kcal": 24.44,
+        "protein": 0.73,
+        "carbs": 0.18,
+        "fat": 2.29
+      },
+      {
+        "name": "Lemon cheesecake protein yoghurts",
+        "qty": 2,
+        "unit": "pot",
+        "kcal": 281.97,
+        "protein": 45.91,
+        "carbs": 20.73,
+        "fat": 1.04
+      },
+      {
+        "name": "Fresh blueberries",
+        "qty": 150,
+        "unit": "g",
+        "kcal": 100.45,
+        "protein": 1.21,
+        "carbs": 25.05,
+        "fat": 0.59
+      },
+      {
+        "name": "Honey",
+        "qty": 15,
+        "unit": "g",
+        "kcal": 53.57,
+        "protein": 0.05,
+        "carbs": 14.16,
+        "fat": 0.0
+      }
+    ],
+    "instructions": [
+      "Crush 2 wheat biscuits into fine crumbs in each tub.",
+      "Add 80ml of milk to each tub, mix well and press down to form a base.",
+      "Cook the blueberries and honey in a frying pan on a low-medium heat for 5 minutes until jammy.",
+      "Spread a protein yoghurt over each base.",
+      "Spoon half of the blueberry jam into each tub. Let cool, put the lids on and refrigerate overnight."
+    ],
+    "tips": "For firmer Weetabix, use 50ml of milk per tub instead of 80ml.",
+    "swaps": "Use a vegan yoghurt to make it vegan. Swap the Weetabix base for 40g oats and 50ml milk."
+  },
+  {
+    "id": "peach-cheesecake-overnight-weetabix",
+    "title": "Peach Cheesecake Overnight Weetabix",
+    "book": "Macro Meals, Micro Budget",
+    "meal": "Breakfast",
+    "mainIngredient": "Weetabix",
+    "vegetarian": "V",
+    "servings": 2,
+    "price": 1.35,
+    "shop": "Aldi / Lidl",
+    "description": null,
+    "image": null,
+    "macros": {
+      "kcal": 385,
+      "protein": 31,
+      "carbs": 54,
+      "fat": 4
+    },
+    "ingredients": [
+      {
+        "name": "Wheat biscuits (Weetabix)",
+        "qty": 4,
+        "unit": "biscuit",
+        "kcal": 313.63,
+        "protein": 10.82,
+        "carbs": 54.7,
+        "fat": 2.9
+      },
+      {
+        "name": "Almond milk",
+        "qty": 160,
+        "unit": "ml",
+        "kcal": 23.98,
+        "protein": 0.79,
+        "carbs": 0.17,
+        "fat": 3.19
+      },
+      {
+        "name": "Peach & passionfruit yoghurt pouches",
+        "qty": 2,
+        "unit": "pouch",
+        "kcal": 276.73,
+        "protein": 49.17,
+        "carbs": 18.94,
+        "fat": 1.45
+      },
+      {
+        "name": "Tinned peaches, drained",
+        "qty": 250,
+        "unit": "g",
+        "kcal": 155.66,
+        "protein": 1.23,
+        "carbs": 34.19,
+        "fat": 0.45
+      }
+    ],
+    "instructions": [
+      "Crush 2 wheat biscuits into fine crumbs in each tub.",
+      "Add 80ml of milk to each tub, mix well and press down to form a base.",
+      "Spread a yoghurt pouch over each base.",
+      "Top each tub with half of the drained peaches. Put the lids on and refrigerate overnight."
+    ],
+    "tips": "For firmer Weetabix, use 50ml of milk per tub instead of 80ml.",
+    "swaps": "Use a vegan yoghurt to make it vegan. Swap the Weetabix base for 40g oats and 50ml milk."
+  },
+  {
+    "id": "raspberry-cheesecake-overnight-weetabix",
+    "title": "Raspberry Cheesecake Overnight Weetabix",
+    "book": "Macro Meals, Micro Budget",
+    "meal": "Breakfast",
+    "mainIngredient": "Weetabix",
+    "vegetarian": "V",
+    "servings": 2,
+    "price": 1.94,
+    "shop": "Aldi / Lidl",
+    "description": null,
+    "image": null,
+    "macros": {
+      "kcal": 357,
+      "protein": 31,
+      "carbs": 45,
+      "fat": 3
+    },
+    "ingredients": [
+      {
+        "name": "Wheat biscuits (Weetabix)",
+        "qty": 4,
+        "unit": "biscuit",
+        "kcal": 297.93,
+        "protein": 10.51,
+        "carbs": 49.06,
+        "fat": 1.69
+      },
+      {
+        "name": "Oat milk",
+        "qty": 160,
+        "unit": "ml",
+        "kcal": 80.62,
+        "protein": 1.91,
+        "carbs": 9.81,
+        "fat": 2.54
+      },
+      {
+        "name": "Raspberry yoghurt pouches",
+        "qty": 2,
+        "unit": "pouch",
+        "kcal": 262.88,
+        "protein": 47.78,
+        "carbs": 16.98,
+        "fat": 0.85
+      },
+      {
+        "name": "Raspberries",
+        "qty": 125,
+        "unit": "g",
+        "kcal": 72.57,
+        "protein": 1.79,
+        "carbs": 14.15,
+        "fat": 0.93
+      }
+    ],
+    "instructions": [
+      "Crush 2 wheat biscuits into fine crumbs in each tub.",
+      "Add 80ml of milk to each tub, mix well and press down to form a base.",
+      "Spread a yoghurt pouch over each base.",
+      "Top each tub with half of the raspberries. Put the lids on and refrigerate overnight."
+    ],
+    "tips": "For firmer Weetabix, use 50ml of milk per tub instead of 80ml.",
+    "swaps": "Use a vegan yoghurt to make it vegan. Swap the Weetabix base for 40g oats and 50ml milk."
+  },
+  {
+    "id": "mixed-berry-cheesecake-overnight-oats",
+    "title": "Mixed Berry Cheesecake Overnight Oats",
+    "book": "Macro Meals, Micro Budget",
+    "meal": "Breakfast",
+    "mainIngredient": "Oats",
+    "vegetarian": "V",
+    "servings": 2,
+    "price": 1.19,
+    "shop": "Aldi / B&M Bargains",
+    "description": null,
+    "image": null,
+    "macros": {
+      "kcal": 422,
+      "protein": 31,
+      "carbs": 60,
+      "fat": 6
+    },
+    "ingredients": [
+      {
+        "name": "Oats",
+        "qty": 80,
+        "unit": "g",
+        "kcal": 313.99,
+        "protein": 8.83,
+        "carbs": 58.6,
+        "fat": 6.99
+      },
+      {
+        "name": "Vanilla protein powder (1 scoop)",
+        "qty": 25,
+        "unit": "g",
+        "kcal": 104.66,
+        "protein": 16.55,
+        "carbs": 2.44,
+        "fat": 1.75
+      },
+      {
+        "name": "Milk (almond used)",
+        "qty": 100,
+        "unit": "ml",
+        "kcal": 13.61,
+        "protein": 0.34,
+        "carbs": 0.12,
+        "fat": 1.28
+      },
+      {
+        "name": "Frozen mixed berries",
+        "qty": 300,
+        "unit": "g",
+        "kcal": 141.29,
+        "protein": 2.29,
+        "carbs": 29.3,
+        "fat": 1.05
+      },
+      {
+        "name": "Fat-free Greek yoghurt",
+        "qty": 400,
+        "unit": "g",
+        "kcal": 238.63,
+        "protein": 33.96,
+        "carbs": 19.53,
+        "fat": 0.93
+      },
+      {
+        "name": "Honey",
+        "qty": 10,
+        "unit": "g",
+        "kcal": 31.82,
+        "protein": 0.03,
+        "carbs": 10.01,
+        "fat": 0.0
+      },
+      {
+        "name": "2 tsp lemon juice",
+        "fixed": true
+      }
+    ],
+    "instructions": [
+      "Cook the berries with the honey and lemon juice in a pan on a low heat for 5 minutes.",
+      "Put 40g oats and 50ml milk into each tub and press down to form a base.",
+      "Mix the yoghurt with the protein powder, then stir in the juice from the berry pan.",
+      "Spoon half of the yoghurt into each tub and smooth over, then top each with half of the berries. Let cool, put the lids on and refrigerate."
+    ],
+    "tips": "Use the berry juice to flavour the yoghurt. Squash the berries with a spoon for a jammier texture.",
+    "swaps": "Use a vegan yoghurt and protein powder to make it vegan."
+  },
+  {
+    "id": "tiramisu-overnight-oats",
+    "title": "Tiramisu Overnight Oats",
+    "book": "Macro Meals, Micro Budget",
+    "meal": "Breakfast",
+    "mainIngredient": "Oats",
+    "vegetarian": "V",
+    "servings": 1,
+    "price": 1.0,
+    "shop": "Aldi / B&M Bargains",
+    "description": null,
+    "image": null,
+    "macros": {
+      "kcal": 368,
+      "protein": 32,
+      "carbs": 42,
+      "fat": 7
+    },
+    "ingredients": [
+      {
+        "name": "Oats",
+        "qty": 50,
+        "unit": "g",
+        "kcal": 193.01,
+        "protein": 6.23,
+        "carbs": 35.54,
+        "fat": 3.28
+      },
+      {
+        "name": "Vanilla protein powder (1 scoop)",
+        "qty": 25,
+        "unit": "g",
+        "kcal": 102.94,
+        "protein": 18.68,
+        "carbs": 2.37,
+        "fat": 1.31
+      },
+      {
+        "name": "Milk (almond used)",
+        "qty": 50,
+        "unit": "ml",
+        "kcal": 6.69,
+        "protein": 0.19,
+        "carbs": 0.06,
+        "fat": 0.48
+      },
+      {
+        "name": "Cocoa powder (half in, half on top)",
+        "qty": 10,
+        "unit": "g",
+        "kcal": 36.03,
+        "protein": 2.11,
+        "carbs": 1.66,
+        "fat": 1.84
+      },
+      {
+        "name": "Fat-free Greek yoghurt (topping)",
+        "qty": 50,
+        "unit": "g",
+        "kcal": 29.34,
+        "protein": 4.79,
+        "carbs": 2.37,
+        "fat": 0.09
+      },
+      {
+        "name": "1 shot instant coffee",
+        "fixed": true
+      }
+    ],
+    "instructions": [
+      "Shake the oats, 1 tsp of cocoa and the protein powder together in a jar.",
+      "Add the milk and coffee, mix thoroughly and smooth the top.",
+      "Spread the yoghurt over the top and sieve over the remaining cocoa.",
+      "Put the lid on and refrigerate overnight."
+    ],
+    "tips": "Use a sieve to dust the cocoa evenly.",
+    "swaps": "Use a vegan yoghurt and protein powder to make it vegan."
+  },
+  {
+    "id": "chocolate-peanut-butter-overnight-oats",
+    "title": "Chocolate Peanut Butter Overnight Oats",
+    "book": "Macro Meals, Micro Budget",
+    "meal": "Breakfast",
+    "mainIngredient": "Oats",
+    "vegetarian": "V",
+    "servings": 1,
+    "price": 1.08,
+    "shop": "Aldi / B&M Bargains",
+    "description": null,
+    "image": null,
+    "macros": {
+      "kcal": 422,
+      "protein": 37,
+      "carbs": 42,
+      "fat": 14
+    },
+    "ingredients": [
+      {
+        "name": "Oats",
+        "qty": 40,
+        "unit": "g",
+        "kcal": 149.82,
+        "protein": 4.84,
+        "carbs": 30.83,
+        "fat": 3.04
+      },
+      {
+        "name": "Vanilla protein powder (1 scoop)",
+        "qty": 25,
+        "unit": "g",
+        "kcal": 99.88,
+        "protein": 18.15,
+        "carbs": 2.57,
+        "fat": 1.52
+      },
+      {
+        "name": "Milk (almond used)",
+        "qty": 50,
+        "unit": "ml",
+        "kcal": 6.49,
+        "protein": 0.19,
+        "carbs": 0.06,
+        "fat": 0.56
+      },
+      {
+        "name": "Cocoa powder",
+        "qty": 5,
+        "unit": "g",
+        "kcal": 17.48,
+        "protein": 1.02,
+        "carbs": 0.9,
+        "fat": 1.07
+      },
+      {
+        "name": "Peanut butter",
+        "qty": 15,
+        "unit": "g",
+        "kcal": 91.39,
+        "protein": 3.49,
+        "carbs": 2.5,
+        "fat": 7.61
+      },
+      {
+        "name": "Fat-free Greek yoghurt",
+        "qty": 100,
+        "unit": "g",
+        "kcal": 56.93,
+        "protein": 9.31,
+        "carbs": 5.14,
+        "fat": 0.2
+      }
+    ],
+    "instructions": [
+      "Shake the oats, cocoa and protein powder together in a jar.",
+      "Add the milk and yoghurt, mix thoroughly and smooth the top.",
+      "Microwave the peanut butter for 20 seconds. Stir half into the oats and drizzle the rest over the top.",
+      "Put the lid on and refrigerate overnight."
+    ],
+    "tips": "Add more peanut butter for a stronger flavour (it adds calories).",
+    "swaps": "Use a vegan yoghurt and protein powder to make it vegan."
+  },
+  {
+    "id": "banana-mocha-protein-smoothie",
+    "title": "Banana-Mocha Protein Smoothie",
+    "book": "Macro Meals, Micro Budget",
+    "meal": "Breakfast",
+    "mainIngredient": "Protein powder",
+    "vegetarian": "V",
+    "servings": 2,
+    "price": 1.16,
+    "shop": "Aldi / MyProtein",
+    "description": null,
+    "image": null,
+    "macros": {
+      "kcal": 468,
+      "protein": 36,
+      "carbs": 74,
+      "fat": 7
+    },
+    "ingredients": [
+      {
+        "name": "Oats",
+        "qty": 100,
+        "unit": "g",
+        "kcal": 386.56,
+        "protein": 12.55,
+        "carbs": 72.05,
+        "fat": 7.75
+      },
+      {
+        "name": "Bananas",
+        "qty": 2,
+        "unit": "banana",
+        "kcal": 216.48,
+        "protein": 2.51,
+        "carbs": 64.84,
+        "fat": 0.83
+      },
+      {
+        "name": "Chocolate protein powder (3 scoops)",
+        "qty": 75,
+        "unit": "g",
+        "kcal": 309.25,
+        "protein": 56.46,
+        "carbs": 7.2,
+        "fat": 4.65
+      },
+      {
+        "name": "Milk (oat used)",
+        "qty": 50,
+        "unit": "ml",
+        "kcal": 23.71,
+        "protein": 0.48,
+        "carbs": 3.9,
+        "fat": 0.77
+      },
+      {
+        "name": "2 shots of coffee",
+        "fixed": true
+      },
+      {
+        "name": "400ml water and 2 handfuls of ice",
+        "fixed": true
+      }
+    ],
+    "instructions": [
+      "Put everything into a blender.",
+      "Blend until smooth."
+    ],
+    "tips": "Keep the second portion in the fridge and shake before drinking.",
+    "swaps": "Use a vegan protein powder to make it vegan. Instant coffee mixed with a little hot water works fine."
+  },
+  {
+    "id": "high-protein-chocolate-french-toast-bites",
+    "title": "High-Protein Chocolate French Toast Bites",
+    "book": "Macro Meals, Micro Budget",
+    "meal": "Breakfast",
+    "mainIngredient": "Eggs",
+    "vegetarian": "V",
+    "servings": 1,
+    "price": 1.72,
+    "shop": "Aldi",
+    "description": null,
+    "image": null,
+    "macros": {
+      "kcal": 487,
+      "protein": 35,
+      "carbs": 53,
+      "fat": 16
+    },
+    "ingredients": [
+      {
+        "name": "Brioche bun",
+        "qty": 1,
+        "unit": "bun",
+        "kcal": 168.84,
+        "protein": 4.87,
+        "carbs": 28.24,
+        "fat": 4.57
+      },
+      {
+        "name": "Egg",
+        "qty": 1,
+        "unit": "egg",
+        "kcal": 69.52,
+        "protein": 6.13,
+        "carbs": 0.3,
+        "fat": 4.88
+      },
+      {
+        "name": "Egg white",
+        "qty": 1,
+        "unit": "egg white",
+        "kcal": 16.88,
+        "protein": 3.5,
+        "carbs": 0.2,
+        "fat": 0.1
+      },
+      {
+        "name": "Chocolate protein powder (1 scoop)",
+        "qty": 25,
+        "unit": "g",
+        "kcal": 99.32,
+        "protein": 18.98,
+        "carbs": 2.02,
+        "fat": 1.52
+      },
+      {
+        "name": "Nutella (topping)",
+        "qty": 15,
+        "unit": "g",
+        "kcal": 80.3,
+        "protein": 0.88,
+        "carbs": 8.62,
+        "fat": 4.72
+      },
+      {
+        "name": "Banana (topping)",
+        "qty": 0.5,
+        "unit": "banana",
+        "kcal": 52.14,
+        "protein": 0.63,
+        "carbs": 13.62,
+        "fat": 0.2
+      },
+      {
+        "name": "½ tsp cinnamon and ½ tsp vanilla extract",
+        "fixed": true
+      }
+    ],
+    "instructions": [
+      "Beat the egg and egg white in a bowl.",
+      "Whisk in the protein powder, vanilla and cinnamon.",
+      "Cut the brioche into 3cm cubes and toss in the egg mixture until fully coated.",
+      "Pan fry on a medium-high heat for 6–8 minutes until crispy.",
+      "Top with Nutella and banana, or whatever you like."
+    ],
+    "tips": "Use your favourite protein powder flavour and toppings.",
+    "swaps": "Any bread you have in the cupboard works in place of the brioche."
+  },
+  {
+    "id": "cheesy-bacon-egg-bagels",
+    "title": "Cheesy Bacon Egg Bagels",
+    "book": "Macro Meals, Micro Budget",
+    "meal": "Breakfast",
+    "mainIngredient": "Eggs",
+    "vegetarian": null,
+    "servings": 1,
+    "price": 1.62,
+    "shop": "Aldi",
+    "description": null,
+    "image": null,
+    "macros": {
+      "kcal": 413,
+      "protein": 35,
+      "carbs": 28,
+      "fat": 18
+    },
+    "ingredients": [
+      {
+        "name": "Bagel thin",
+        "qty": 1,
+        "unit": "bagel thin",
+        "kcal": 124.28,
+        "protein": 4.89,
+        "carbs": 24.77,
+        "fat": 1.35
+      },
+      {
+        "name": "Eggs",
+        "qty": 2,
+        "unit": "egg",
+        "kcal": 133.84,
+        "protein": 12.33,
+        "carbs": 0.65,
+        "fat": 8.66
+      },
+      {
+        "name": "Bacon medallions",
+        "qty": 2,
+        "unit": "medallion",
+        "kcal": 61.19,
+        "protein": 10.77,
+        "carbs": 0.43,
+        "fat": 1.98
+      },
+      {
+        "name": "Grated mozzarella",
+        "qty": 30,
+        "unit": "g",
+        "kcal": 86.04,
+        "protein": 6.75,
+        "carbs": 0.65,
+        "fat": 5.95
+      },
+      {
+        "name": "Tomato salsa",
+        "qty": 20,
+        "unit": "g",
+        "kcal": 7.65,
+        "protein": 0.25,
+        "carbs": 1.51,
+        "fat": 0.05
+      },
+      {
+        "name": "Sriracha, to serve (optional)",
+        "fixed": true
+      }
+    ],
+    "instructions": [
+      "Air fry the bacon for 8 minutes at 190°C (or oven bake for 10).",
+      "Spoon 10g of salsa per bagel half onto a lined tray.",
+      "Lay the bagel halves over the salsa and crack an egg into each.",
+      "Top each with 15g mozzarella and air fry for 5 minutes at 190°C (or oven bake for 8).",
+      "Dice the bacon and scatter over the eggs. Finish with sriracha if you like."
+    ],
+    "tips": "Add a couple of minutes if you like your eggs firmer.",
+    "swaps": "Leave out the bacon or use a veggie bacon to make it vegetarian."
+  },
+  {
+    "id": "cheesy-breakfast-bagel-sandwich",
+    "title": "Cheesy Breakfast Bagel Sandwich",
+    "book": "Macro Meals, Micro Budget",
+    "meal": "Breakfast",
+    "mainIngredient": "Sausage",
+    "vegetarian": null,
+    "servings": 1,
+    "price": 1.42,
+    "shop": "Aldi",
+    "description": null,
+    "image": null,
+    "macros": {
+      "kcal": 335,
+      "protein": 33,
+      "carbs": 27,
+      "fat": 11
+    },
+    "ingredients": [
+      {
+        "name": "Bagel thin",
+        "qty": 1,
+        "unit": "bagel thin",
+        "kcal": 124.79,
+        "protein": 5.37,
+        "carbs": 23.98,
+        "fat": 1.25
+      },
+      {
+        "name": "Chicken chipolatas",
+        "qty": 2,
+        "unit": "chipolata",
+        "kcal": 76.79,
+        "protein": 9.66,
+        "carbs": 2.08,
+        "fat": 3.33
+      },
+      {
+        "name": "Bacon medallions",
+        "qty": 2,
+        "unit": "medallion",
+        "kcal": 61.43,
+        "protein": 11.8,
+        "carbs": 0.42,
+        "fat": 1.83
+      },
+      {
+        "name": "Mozzarella (1 slice)",
+        "qty": 25,
+        "unit": "g",
+        "kcal": 71.99,
+        "protein": 6.17,
+        "carbs": 0.52,
+        "fat": 4.58
+      },
+      {
+        "name": "Sauce of your choice",
+        "fixed": true
+      }
+    ],
+    "instructions": [
+      "Air fry the chipolatas for 7 minutes at 190°C (or oven bake for 9).",
+      "Flip the sausages, add the bacon to the tray and cook for 5 minutes more.",
+      "Add the bagel thin and toast for 1 minute.",
+      "Slice the sausages lengthways. Spread sauce on the bagel, then layer the sausages, bacon and cheese. Close and heat for 90 seconds."
+    ],
+    "tips": null,
+    "swaps": "Use low-calorie or pork chipolatas, or any cheese you like (both add calories)."
+  },
+  {
+    "id": "cheesy-scrambled-egg-on-toast",
+    "title": "Cheesy Scrambled Egg on Toast",
+    "book": "Macro Meals, Micro Budget",
+    "meal": "Breakfast",
+    "mainIngredient": "Eggs",
+    "vegetarian": "V",
+    "servings": 1,
+    "price": 1.36,
+    "shop": "Aldi",
+    "description": null,
+    "image": null,
+    "macros": {
+      "kcal": 405,
+      "protein": 26,
+      "carbs": 41,
+      "fat": 15
+    },
+    "ingredients": [
+      {
+        "name": "Warburtons sandwich thins",
+        "qty": 2,
+        "unit": "thin",
+        "kcal": 188.37,
+        "protein": 7.48,
+        "carbs": 35.09,
+        "fat": 1.88
+      },
+      {
+        "name": "Eggs",
+        "qty": 2,
+        "unit": "egg",
+        "kcal": 131.86,
+        "protein": 11.78,
+        "carbs": 0.6,
+        "fat": 9.0
+      },
+      {
+        "name": "Low-fat cheddar",
+        "qty": 20,
+        "unit": "g",
+        "kcal": 56.51,
+        "protein": 5.61,
+        "carbs": 0.1,
+        "fat": 3.75
+      },
+      {
+        "name": "Tomatoes, chopped",
+        "qty": 2,
+        "unit": "tomato",
+        "kcal": 28.26,
+        "protein": 1.12,
+        "carbs": 5.21,
+        "fat": 0.38
+      },
+      {
+        "name": "Salt, pepper, paprika and parsley",
+        "fixed": true
+      }
+    ],
+    "instructions": [
+      "Whisk the eggs in a bowl.",
+      "Spray a pan with Frylight and cook the eggs low and slow for 5–8 minutes, stirring often.",
+      "While still slightly underdone, stir in the cheese and tomatoes and season with salt, pepper and paprika.",
+      "Toast the thins and spoon the eggs over the top. Garnish with parsley."
+    ],
+    "tips": null,
+    "swaps": "Use 2 thin slices of normal bread instead of the thins. Spinach works well in place of the tomatoes."
+  },
+  {
+    "id": "mixed-berry-baked-oats",
+    "title": "Mixed Berry Baked Oats",
+    "book": "Macro Meals, Micro Budget",
+    "meal": "Breakfast",
+    "mainIngredient": "Oats",
+    "vegetarian": "V",
+    "servings": 1,
+    "price": 1.55,
+    "shop": "Aldi / MyProtein",
+    "description": null,
+    "image": null,
+    "macros": {
+      "kcal": 432,
+      "protein": 30,
+      "carbs": 61,
+      "fat": 7
+    },
+    "ingredients": [
+      {
+        "name": "Oats",
+        "qty": 40,
+        "unit": "g",
+        "kcal": 162.2,
+        "protein": 4.99,
+        "carbs": 30.94,
+        "fat": 2.94
+      },
+      {
+        "name": "Frozen mixed berries",
+        "qty": 160,
+        "unit": "g",
+        "kcal": 77.86,
+        "protein": 1.38,
+        "carbs": 16.5,
+        "fat": 0.47
+      },
+      {
+        "name": "Vanilla protein powder",
+        "qty": 30,
+        "unit": "g",
+        "kcal": 129.76,
+        "protein": 22.44,
+        "carbs": 3.09,
+        "fat": 1.76
+      },
+      {
+        "name": "Oat milk",
+        "qty": 125,
+        "unit": "ml",
+        "kcal": 62.18,
+        "protein": 1.2,
+        "carbs": 10.47,
+        "fat": 1.83
+      },
+      {
+        "name": "½ tsp baking powder and ½ tsp vanilla extract",
+        "fixed": true
+      }
+    ],
+    "instructions": [
+      "Preheat the oven to 180°C.",
+      "Blend everything until smooth, holding back 60g of the berries.",
+      "Pour into an ovenproof dish and press the reserved berries into the top.",
+      "Bake for 20 minutes."
+    ],
+    "tips": "Or air fry for 12 minutes at 170°C.",
+    "swaps": "Use a vegan protein powder to make it vegan."
+  },
+  {
+    "id": "chocolate-brownie-baked-oats",
+    "title": "Chocolate Brownie Baked Oats",
+    "book": "Macro Meals, Micro Budget",
+    "meal": "Breakfast",
+    "mainIngredient": "Oats",
+    "vegetarian": "V",
+    "servings": 1,
+    "price": 1.3,
+    "shop": "Aldi / MyProtein",
+    "description": null,
+    "image": null,
+    "macros": {
+      "kcal": 452,
+      "protein": 28,
+      "carbs": 60,
+      "fat": 11
+    },
+    "ingredients": [
+      {
+        "name": "Oats",
+        "qty": 40,
+        "unit": "g",
+        "kcal": 157.35,
+        "protein": 4.7,
+        "carbs": 27.17,
+        "fat": 3.27
+      },
+      {
+        "name": "Chocolate brownie protein powder",
+        "qty": 30,
+        "unit": "g",
+        "kcal": 125.88,
+        "protein": 21.16,
+        "carbs": 2.72,
+        "fat": 1.96
+      },
+      {
+        "name": "Banana",
+        "qty": 0.5,
+        "unit": "banana",
+        "kcal": 55.07,
+        "protein": 0.59,
+        "carbs": 15.28,
+        "fat": 0.22
+      },
+      {
+        "name": "Milk (oat used)",
+        "qty": 100,
+        "unit": "ml",
+        "kcal": 48.25,
+        "protein": 0.9,
+        "carbs": 7.36,
+        "fat": 1.63
+      },
+      {
+        "name": "Chocolate chips",
+        "qty": 12,
+        "unit": "g",
+        "kcal": 65.46,
+        "protein": 0.65,
+        "carbs": 7.47,
+        "fat": 3.92
+      },
+      {
+        "name": "½ tsp baking powder, ½ tsp cinnamon, ½ tsp vanilla (optional)",
+        "fixed": true
+      }
+    ],
+    "instructions": [
+      "Blend everything except the chocolate chips until smooth.",
+      "Pour into an ovenproof dish and top with the chocolate chips.",
+      "Bake for 15 minutes at 180°C."
+    ],
+    "tips": "Or air fry for 10 minutes at 170°C.",
+    "swaps": "Use a vegan protein powder to make it vegan."
+  },
+  {
+    "id": "carrot-cake-baked-oats",
+    "title": "Carrot Cake Baked Oats",
+    "book": "Macro Meals, Micro Budget",
+    "meal": "Breakfast",
+    "mainIngredient": "Oats",
+    "vegetarian": "V",
+    "servings": 1,
+    "price": 1.38,
+    "shop": "Aldi / B&M Bargains",
+    "description": null,
+    "image": null,
+    "macros": {
+      "kcal": 487,
+      "protein": 39,
+      "carbs": 68,
+      "fat": 7
+    },
+    "ingredients": [
+      {
+        "name": "Oats",
+        "qty": 40,
+        "unit": "g",
+        "kcal": 156.26,
+        "protein": 5.08,
+        "carbs": 27.31,
+        "fat": 2.64
+      },
+      {
+        "name": "Vanilla protein powder (1 scoop)",
+        "qty": 25,
+        "unit": "g",
+        "kcal": 104.17,
+        "protein": 19.04,
+        "carbs": 2.28,
+        "fat": 1.32
+      },
+      {
+        "name": "Milk (almond used)",
+        "qty": 200,
+        "unit": "ml",
+        "kcal": 27.08,
+        "protein": 0.78,
+        "carbs": 0.23,
+        "fat": 1.94
+      },
+      {
+        "name": "Grated carrot",
+        "qty": 50,
+        "unit": "g",
+        "kcal": 18.75,
+        "protein": 0.34,
+        "carbs": 4.27,
+        "fat": 0.13
+      },
+      {
+        "name": "Banana, mashed",
+        "qty": 1,
+        "unit": "banana",
+        "kcal": 109.38,
+        "protein": 1.27,
+        "carbs": 30.73,
+        "fat": 0.35
+      },
+      {
+        "name": "Fat-free Greek yoghurt (frosting)",
+        "qty": 50,
+        "unit": "g",
+        "kcal": 29.69,
+        "protein": 4.88,
+        "carbs": 2.28,
+        "fat": 0.09
+      },
+      {
+        "name": "Vanilla protein powder (frosting)",
+        "qty": 10,
+        "unit": "g",
+        "kcal": 41.67,
+        "protein": 7.61,
+        "carbs": 0.91,
+        "fat": 0.53
+      },
+      {
+        "name": "½ tsp baking powder and a dash of vanilla extract",
+        "fixed": true
+      },
+      {
+        "name": "10g dark chocolate chips (optional, not in the macros)",
+        "fixed": true
+      }
+    ],
+    "instructions": [
+      "Preheat the oven to 190°C.",
+      "Mix the oats, protein, milk, carrot, banana and baking powder until fully combined, then tip into a baking dish.",
+      "Bake for 20 minutes.",
+      "Meanwhile, mix the yoghurt with the frosting protein and vanilla.",
+      "Let the oats cool slightly, then spread the frosting over the top."
+    ],
+    "tips": "The macros exclude the chocolate chips; adding them takes it over 500 kcal.",
+    "swaps": "Use a vegan protein powder and leave out the Greek yoghurt to make it vegan."
+  },
+  {
+    "id": "cheesy-bean-breakfast-burritos",
+    "title": "Cheesy Bean Breakfast Burritos",
+    "book": "Macro Meals, Micro Budget",
+    "meal": "Breakfast",
+    "mainIngredient": "Eggs",
+    "vegetarian": "V",
+    "servings": 2,
+    "price": 0.82,
+    "shop": "Aldi",
+    "description": null,
+    "image": null,
+    "macros": {
+      "kcal": 498,
+      "protein": 27,
+      "carbs": 48,
+      "fat": 20
+    },
+    "ingredients": [
+      {
+        "name": "Tortilla wraps",
+        "qty": 2,
+        "unit": "wrap",
+        "kcal": 374.36,
+        "protein": 10.29,
+        "carbs": 66.51,
+        "fat": 8.08
+      },
+      {
+        "name": "Baked beans (½ tin)",
+        "qty": 210,
+        "unit": "g",
+        "kcal": 161.37,
+        "protein": 9.62,
+        "carbs": 28.16,
+        "fat": 0.57
+      },
+      {
+        "name": "Grated cheddar",
+        "qty": 45,
+        "unit": "g",
+        "kcal": 184.42,
+        "protein": 10.52,
+        "carbs": 0.05,
+        "fat": 14.13
+      },
+      {
+        "name": "Medium eggs",
+        "qty": 4,
+        "unit": "egg",
+        "kcal": 275.85,
+        "protein": 23.57,
+        "carbs": 1.29,
+        "fat": 17.23
+      },
+      {
+        "name": "Salt, pepper, paprika and garlic powder",
+        "fixed": true
+      }
+    ],
+    "instructions": [
+      "Scramble the eggs in a pan on a low-medium heat and season with salt, pepper, paprika and garlic powder.",
+      "Lay out a wrap and add a quarter of the cheese, half the eggs, half the beans, then another quarter of the cheese.",
+      "Repeat with the second wrap and roll both into burritos.",
+      "Toast in a toastie machine or frying pan for a couple of minutes until golden."
+    ],
+    "tips": "Add any sauce you like before wrapping.",
+    "swaps": "Not a fan of beans? Use fried tomatoes or mushrooms instead."
+  },
+  {
+    "id": "cheesy-bean-muffins",
+    "title": "Cheesy Bean Muffins",
+    "book": "Macro Meals, Micro Budget",
+    "meal": "Breakfast",
+    "mainIngredient": "Beans",
+    "vegetarian": "V",
+    "servings": 1,
+    "price": 0.8,
+    "shop": "Aldi",
+    "description": null,
+    "image": null,
+    "macros": {
+      "kcal": 471,
+      "protein": 26,
+      "carbs": 60,
+      "fat": 11
+    },
+    "ingredients": [
+      {
+        "name": "English muffin",
+        "qty": 1,
+        "unit": "muffin",
+        "kcal": 149.65,
+        "protein": 5.41,
+        "carbs": 29.23,
+        "fat": 1.2
+      },
+      {
+        "name": "Baked beans (½ tin)",
+        "qty": 205,
+        "unit": "g",
+        "kcal": 177.25,
+        "protein": 9.88,
+        "carbs": 29.96,
+        "fat": 0.61
+      },
+      {
+        "name": "Grated mozzarella",
+        "qty": 20,
+        "unit": "g",
+        "kcal": 66.51,
+        "protein": 4.52,
+        "carbs": 0.47,
+        "fat": 4.39
+      },
+      {
+        "name": "Medium egg",
+        "qty": 1,
+        "unit": "egg",
+        "kcal": 77.59,
+        "protein": 6.19,
+        "carbs": 0.35,
+        "fat": 4.79
+      }
+    ],
+    "instructions": [
+      "Slice the muffin, lay it in an ovenproof dish and toast at 190°C for 2 minutes.",
+      "Fry the egg in a pan on a low-medium heat.",
+      "Top the muffin with the beans and mozzarella and air fry for 6 minutes at 190°C (or oven bake for 8).",
+      "Top with the egg."
+    ],
+    "tips": "Leave in for an extra 2 minutes if you like the muffin crispier.",
+    "swaps": "Swap the beans for chopped tomatoes heated with salt, pepper, garlic and herbs (fewer calories and less protein)."
+  },
+  {
+    "id": "blt-wrap",
+    "title": "BLT Wrap",
+    "book": "Macro Meals, Micro Budget",
+    "meal": "Mains",
+    "mainIngredient": "Bacon",
+    "vegetarian": null,
+    "servings": 1,
+    "price": 1.31,
+    "shop": "Aldi",
+    "description": null,
+    "image": null,
+    "macros": {
+      "kcal": 440,
+      "protein": 27,
+      "carbs": 37,
+      "fat": 19
+    },
+    "ingredients": [
+      {
+        "name": "Tortilla wrap",
+        "qty": 1,
+        "unit": "wrap",
+        "kcal": 197.22,
+        "protein": 4.87,
+        "carbs": 32.63,
+        "fat": 4.88
+      },
+      {
+        "name": "Reduced-fat bacon rashers",
+        "qty": 4,
+        "unit": "rasher",
+        "kcal": 186.84,
+        "protein": 21.26,
+        "carbs": 1.26,
+        "fat": 9.54
+      },
+      {
+        "name": "Mixed leaf salad",
+        "qty": 40,
+        "unit": "g",
+        "kcal": 8.3,
+        "protein": 0.53,
+        "carbs": 1.05,
+        "fat": 0.13
+      },
+      {
+        "name": "Cherry tomatoes, halved",
+        "qty": 30,
+        "unit": "g",
+        "kcal": 5.61,
+        "protein": 0.24,
+        "carbs": 0.95,
+        "fat": 0.07
+      },
+      {
+        "name": "Light mayo (lemon-pepper sauce)",
+        "qty": 15,
+        "unit": "g",
+        "kcal": 42.04,
+        "protein": 0.09,
+        "carbs": 1.11,
+        "fat": 4.39
+      },
+      {
+        "name": "1 tsp lemon juice, ½ tsp garlic powder and black pepper (for the sauce)",
+        "fixed": true
+      }
+    ],
+    "instructions": [
+      "Fry the bacon on a medium heat for 5–7 minutes, depending on how crispy you like it.",
+      "Meanwhile, mix the mayo, lemon juice, garlic powder and pepper.",
+      "Rub the wrap around the hot pan to soak up the bacon juices.",
+      "Fill with the salad and tomatoes, then the bacon and sauce.",
+      "Roll into a burrito and slice down the middle."
+    ],
+    "tips": "Add any sauce you like before wrapping.",
+    "swaps": "Use 150g seasoned chicken breast instead of bacon for more protein, or a veggie bacon to make it vegetarian."
+  },
+  {
+    "id": "chicken-caesar-wrap",
+    "title": "Chicken Caesar Wrap",
+    "book": "Macro Meals, Micro Budget",
+    "meal": "Mains",
+    "mainIngredient": "Chicken",
+    "vegetarian": null,
+    "servings": 1,
+    "price": 1.71,
+    "shop": "Aldi",
+    "description": null,
+    "image": null,
+    "macros": {
+      "kcal": 476,
+      "protein": 46,
+      "carbs": 39,
+      "fat": 15
+    },
+    "ingredients": [
+      {
+        "name": "Tortilla wrap",
+        "qty": 1,
+        "unit": "wrap",
+        "kcal": 185.94,
+        "protein": 5.35,
+        "carbs": 34.59,
+        "fat": 3.96
+      },
+      {
+        "name": "Reduced-fat bacon rasher",
+        "qty": 1,
+        "unit": "rasher",
+        "kcal": 44.04,
+        "protein": 5.84,
+        "carbs": 0.33,
+        "fat": 1.93
+      },
+      {
+        "name": "Chicken breast",
+        "qty": 130,
+        "unit": "g",
+        "kcal": 139.94,
+        "protein": 30.37,
+        "carbs": 0.0,
+        "fat": 1.71
+      },
+      {
+        "name": "Mixed leaf salad",
+        "qty": 50,
+        "unit": "g",
+        "kcal": 9.79,
+        "protein": 0.73,
+        "carbs": 1.39,
+        "fat": 0.13
+      },
+      {
+        "name": "Cherry tomatoes",
+        "qty": 30,
+        "unit": "g",
+        "kcal": 5.28,
+        "protein": 0.26,
+        "carbs": 1.0,
+        "fat": 0.05
+      },
+      {
+        "name": "Light mayo (Caesar sauce)",
+        "qty": 20,
+        "unit": "g",
+        "kcal": 52.85,
+        "protein": 0.14,
+        "carbs": 1.56,
+        "fat": 4.75
+      },
+      {
+        "name": "Parmesan (Caesar sauce)",
+        "qty": 10,
+        "unit": "g",
+        "kcal": 38.17,
+        "protein": 3.31,
+        "carbs": 0.11,
+        "fat": 2.46
+      },
+      {
+        "name": "Lemon juice, garlic powder, salt, pepper and a dash of Worcestershire sauce",
+        "fixed": true
+      }
+    ],
+    "instructions": [
+      "Slice the bacon into 4 long strips and fry on a low heat.",
+      "Slice the chicken, season with salt, pepper, garlic powder and lemon juice, and air fry at 200°C for 8 minutes (or oven bake for 10).",
+      "Mix the mayo, parmesan, lemon juice, garlic powder, salt, pepper and Worcestershire sauce to make the Caesar sauce.",
+      "Rub the wrap around the hot bacon pan.",
+      "Fill with the salad, tomatoes, bacon and chicken, then the sauce. Roll up like a burrito or fold like a fajita."
+    ],
+    "tips": null,
+    "swaps": "Use Quorn pieces and leave out the bacon to make it vegetarian."
+  },
+  {
+    "id": "crispy-honey-sriracha-chicken-wraps",
+    "title": "Crispy Honey-Sriracha Chicken Wraps",
+    "book": "Macro Meals, Micro Budget",
+    "meal": "Mains",
+    "mainIngredient": "Chicken",
+    "vegetarian": null,
+    "servings": 3,
+    "price": 1.87,
+    "shop": "Aldi",
+    "description": null,
+    "image": null,
+    "macros": {
+      "kcal": 496,
+      "protein": 57,
+      "carbs": 50,
+      "fat": 7
+    },
+    "ingredients": [
+      {
+        "name": "Tortilla wraps",
+        "qty": 3,
+        "unit": "wrap",
+        "kcal": 552.69,
+        "protein": 16.42,
+        "carbs": 97.69,
+        "fat": 9.81
+      },
+      {
+        "name": "Chicken breast mini fillets",
+        "qty": 600,
+        "unit": "g",
+        "kcal": 639.96,
+        "protein": 143.3,
+        "carbs": 0.0,
+        "fat": 6.54
+      },
+      {
+        "name": "Mixed leaf salad",
+        "qty": 100,
+        "unit": "g",
+        "kcal": 19.39,
+        "protein": 1.49,
+        "carbs": 2.63,
+        "fat": 0.22
+      },
+      {
+        "name": "Cornflakes",
+        "qty": 40,
+        "unit": "g",
+        "kcal": 146.61,
+        "protein": 2.79,
+        "carbs": 35.29,
+        "fat": 0.26
+      },
+      {
+        "name": "Large egg",
+        "qty": 1,
+        "unit": "egg",
+        "kcal": 75.63,
+        "protein": 6.47,
+        "carbs": 0.53,
+        "fat": 4.0
+      },
+      {
+        "name": "Sriracha",
+        "qty": 25,
+        "unit": "g",
+        "kcal": 24.24,
+        "protein": 0.5,
+        "carbs": 5.25,
+        "fat": 0.18
+      },
+      {
+        "name": "Honey",
+        "qty": 10,
+        "unit": "g",
+        "kcal": 29.48,
+        "protein": 0.03,
+        "carbs": 8.61,
+        "fat": 0.0
+      },
+      {
+        "name": "Salt, pepper, garlic powder, paprika and mixed herbs",
+        "fixed": true
+      },
+      {
+        "name": "Light mayo, to serve",
+        "fixed": true
+      }
+    ],
+    "instructions": [
+      "Season the chicken with salt, pepper, garlic powder and paprika.",
+      "Crush the cornflakes and season the same way, plus a teaspoon of mixed herbs.",
+      "Whisk the egg with 5g of the sriracha.",
+      "Dip each fillet in the egg, then coat in the cornflakes.",
+      "Air fry at 190°C for 10 minutes (or oven bake for 12).",
+      "Mix the honey with the remaining 20g sriracha, brush over the tenders and cook for 2 minutes more.",
+      "Spread each wrap with light mayo, add 30g salad and a third of the chicken, and fold like a fajita."
+    ],
+    "tips": "Use one hand for the wet coating and one for the dry.",
+    "swaps": "Panko or golden breadcrumbs work instead of cornflakes."
+  },
+  {
+    "id": "protein-pbandj-quesadilla",
+    "title": "Protein PB&J Quesadilla",
+    "book": "Macro Meals, Micro Budget",
+    "meal": "Mains",
+    "mainIngredient": "Protein powder",
+    "vegetarian": "V",
+    "servings": 1,
+    "price": 0.87,
+    "shop": "Aldi",
+    "description": null,
+    "image": null,
+    "macros": {
+      "kcal": 461,
+      "protein": 32,
+      "carbs": 55,
+      "fat": 13
+    },
+    "ingredients": [
+      {
+        "name": "Tortilla wrap",
+        "qty": 1,
+        "unit": "wrap",
+        "kcal": 190.87,
+        "protein": 4.91,
+        "carbs": 36.47,
+        "fat": 4.28
+      },
+      {
+        "name": "Vanilla protein powder (1 scoop)",
+        "qty": 25,
+        "unit": "g",
+        "kcal": 100.46,
+        "protein": 17.43,
+        "carbs": 2.35,
+        "fat": 1.43
+      },
+      {
+        "name": "Peanut butter",
+        "qty": 15,
+        "unit": "g",
+        "kcal": 91.92,
+        "protein": 3.35,
+        "carbs": 2.29,
+        "fat": 7.14
+      },
+      {
+        "name": "Jam",
+        "qty": 15,
+        "unit": "g",
+        "kcal": 37.67,
+        "protein": 0.05,
+        "carbs": 10.59,
+        "fat": 0.01
+      },
+      {
+        "name": "Fat-free Greek yoghurt",
+        "qty": 70,
+        "unit": "g",
+        "kcal": 40.08,
+        "protein": 6.26,
+        "carbs": 3.29,
+        "fat": 0.13
+      }
+    ],
+    "instructions": [
+      "Microwave the peanut butter for 20–30 seconds, then mix in the protein powder and yoghurt.",
+      "Spread the peanut butter mix over one half of the wrap.",
+      "Spread the jam over the other half.",
+      "Fold in half and press down.",
+      "Fry in a pan on a medium heat for 1–2 minutes each side. Slice and serve."
+    ],
+    "tips": "Protein powder and peanut butter mixed into yoghurt makes a great high-protein base for lots of recipes.",
+    "swaps": "Use any nut butter or jam you like."
+  },
+  {
+    "id": "peri-peri-chicken-salad-sandwich",
+    "title": "Peri Peri Chicken Salad Sandwich",
+    "book": "Macro Meals, Micro Budget",
+    "meal": "Mains",
+    "mainIngredient": "Chicken",
+    "vegetarian": null,
+    "servings": 1,
+    "price": 1.34,
+    "shop": "Aldi",
+    "description": null,
+    "image": null,
+    "macros": {
+      "kcal": 355,
+      "protein": 39,
+      "carbs": 32,
+      "fat": 7
+    },
+    "ingredients": [
+      {
+        "name": "Cooked chicken breast",
+        "qty": 130,
+        "unit": "g",
+        "kcal": 162.31,
+        "protein": 32.32,
+        "carbs": 0.61,
+        "fat": 2.09
+      },
+      {
+        "name": "Medium wholemeal bread (2 slices)",
+        "qty": 80,
+        "unit": "g",
+        "kcal": 156.48,
+        "protein": 6.42,
+        "carbs": 30.05,
+        "fat": 1.61
+      },
+      {
+        "name": "Sweet leaf salad",
+        "qty": 15,
+        "unit": "g",
+        "kcal": 2.5,
+        "protein": 0.18,
+        "carbs": 0.35,
+        "fat": 0.04
+      },
+      {
+        "name": "Light mayo",
+        "qty": 15,
+        "unit": "g",
+        "kcal": 33.71,
+        "protein": 0.08,
+        "carbs": 0.99,
+        "fat": 3.26
+      },
+      {
+        "name": "⅕ packet peri peri seasoning",
+        "fixed": true
+      }
+    ],
+    "instructions": [
+      "Cook the chicken with the peri peri seasoning (or use ready-cooked chicken) and slice thinly.",
+      "Spread the mayo over one slice of bread.",
+      "Lay the chicken over the other slice.",
+      "Add the salad, close the sandwich, slice and serve."
+    ],
+    "tips": "Add any sauce you like.",
+    "swaps": "Any pre-cooked meat works for a super easy lunch."
+  },
+  {
+    "id": "smash-burgers",
+    "title": "Smash Burgers",
+    "book": "Macro Meals, Micro Budget",
+    "meal": "Mains",
+    "mainIngredient": "Beef",
+    "vegetarian": null,
+    "servings": 2,
+    "price": 1.95,
+    "shop": "Aldi",
+    "description": null,
+    "image": null,
+    "macros": {
+      "kcal": 468,
+      "protein": 43,
+      "carbs": 33,
+      "fat": 18
+    },
+    "ingredients": [
+      {
+        "name": "5% fat beef mince",
+        "qty": 250,
+        "unit": "g",
+        "kcal": 286.91,
+        "protein": 52.43,
+        "carbs": 0.0,
+        "fat": 9.93
+      },
+      {
+        "name": "Brioche buns",
+        "qty": 2,
+        "unit": "bun",
+        "kcal": 312.15,
+        "protein": 9.75,
+        "carbs": 47.9,
+        "fat": 7.94
+      },
+      {
+        "name": "Bacon medallions",
+        "qty": 2,
+        "unit": "medallion",
+        "kcal": 58.76,
+        "protein": 10.73,
+        "carbs": 0.34,
+        "fat": 1.94
+      },
+      {
+        "name": "Mozzarella (2 slices)",
+        "qty": 50,
+        "unit": "g",
+        "kcal": 137.71,
+        "protein": 11.22,
+        "carbs": 0.86,
+        "fat": 9.71
+      },
+      {
+        "name": "White onion, diced",
+        "qty": 1,
+        "unit": "onion",
+        "kcal": 55.09,
+        "protein": 1.56,
+        "carbs": 11.12,
+        "fat": 0.18
+      },
+      {
+        "name": "Light butter or olive spread",
+        "qty": 10,
+        "unit": "g",
+        "kcal": 36.72,
+        "protein": 0.03,
+        "carbs": 0.05,
+        "fat": 3.88
+      },
+      {
+        "name": "Light mayo (special sauce)",
+        "qty": 10,
+        "unit": "g",
+        "kcal": 24.79,
+        "protein": 0.07,
+        "carbs": 0.6,
+        "fat": 2.38
+      },
+      {
+        "name": "Ketchup (special sauce)",
+        "qty": 10,
+        "unit": "g",
+        "kcal": 10.1,
+        "protein": 0.13,
+        "carbs": 2.14,
+        "fat": 0.02
+      },
+      {
+        "name": "BBQ sauce (special sauce)",
+        "qty": 10,
+        "unit": "g",
+        "kcal": 13.77,
+        "protein": 0.08,
+        "carbs": 2.99,
+        "fat": 0.03
+      },
+      {
+        "name": "½ tsp Worcestershire sauce, salt, pepper and garlic powder (special sauce)",
+        "fixed": true
+      },
+      {
+        "name": "Salt, pepper, garlic powder, onion powder and paprika (for the beef)",
+        "fixed": true
+      }
+    ],
+    "instructions": [
+      "Cook the onion in the butter on a low-medium heat for as long as you can while you make everything else, stirring now and then.",
+      "Air fry the bacon at 190°C for 6 minutes (or oven bake for 8).",
+      "Season the mince and roll into 4 even balls.",
+      "Put the balls in a screaming hot pan and press down as thinly as you can using something flat and a sheet of baking paper. Cook for 2–3 minutes, flip and cook for 2 more.",
+      "Spread the special sauce on both halves of each bun. Stack a patty and half a cheese slice, then the second patty and the rest of the cheese, then the bacon and onions.",
+      "Wrap in foil and heat for 2 minutes at 190°C."
+    ],
+    "tips": "The thinner you smash them, the faster they cook.",
+    "swaps": "Use any mince you like, including a veggie mince."
+  },
+  {
+    "id": "cheesy-beef-tacos",
+    "title": "Cheesy Beef Tacos",
+    "book": "Macro Meals, Micro Budget",
+    "meal": "Mains",
+    "mainIngredient": "Beef",
+    "vegetarian": null,
+    "servings": 8,
+    "price": 0.89,
+    "shop": "Aldi",
+    "description": "Makes 8 tacos. Macros are per taco.",
+    "image": null,
+    "macros": {
+      "kcal": 269,
+      "protein": 17,
+      "carbs": 21,
+      "fat": 13
+    },
+    "ingredients": [
+      {
+        "name": "Thin-cut beef steaks",
+        "qty": 360,
+        "unit": "g",
+        "kcal": 539.15,
+        "protein": 76.66,
+        "carbs": 0.0,
+        "fat": 25.0
+      },
+      {
+        "name": "Red onion",
+        "qty": 1,
+        "unit": "onion",
+        "kcal": 69.12,
+        "protein": 1.55,
+        "carbs": 13.05,
+        "fat": 0.31
+      },
+      {
+        "name": "Red pepper",
+        "qty": 1,
+        "unit": "pepper",
+        "kcal": 46.08,
+        "protein": 1.55,
+        "carbs": 6.42,
+        "fat": 0.77
+      },
+      {
+        "name": "Grated mozzarella",
+        "qty": 150,
+        "unit": "g",
+        "kcal": 518.42,
+        "protein": 33.4,
+        "carbs": 3.01,
+        "fat": 50.92
+      },
+      {
+        "name": "Mini tortillas",
+        "qty": 8,
+        "unit": "tortilla",
+        "kcal": 875.55,
+        "protein": 20.91,
+        "carbs": 128.46,
+        "fat": 24.69
+      },
+      {
+        "name": "Taco seasoning",
+        "qty": 1,
+        "unit": "packet",
+        "kcal": 103.68,
+        "protein": 1.94,
+        "carbs": 17.06,
+        "fat": 2.31
+      },
+      {
+        "name": "Salt, pepper, paprika and garlic powder",
+        "fixed": true
+      },
+      {
+        "name": "Lemon juice and sriracha (optional); coriander and jalapeños to garnish",
+        "fixed": true
+      }
+    ],
+    "instructions": [
+      "Slice the steaks thinly. Fry in Frylight with the seasonings and half the taco seasoning until browned, then set aside.",
+      "Fry the onion and pepper with the same seasonings for 5 minutes.",
+      "Add a splash of water and scrape up the bits from the pan, then return the beef. Add lemon juice and sriracha if you like.",
+      "Dip a tortilla into the beef juices and place it face down in a hot pan.",
+      "Add an eighth of the beef and an eighth of the cheese to one side, fold over and press to seal.",
+      "Cook for a minute, flip and cook for another minute. Repeat to make 8."
+    ],
+    "tips": "Dip the tortillas in the beef mixture so they soak up the flavour.",
+    "swaps": "Use halloumi instead of beef to make it vegetarian."
+  },
+  {
+    "id": "bangers-and-mash",
+    "title": "Bangers & Mash",
+    "book": "Macro Meals, Micro Budget",
+    "meal": "Mains",
+    "mainIngredient": "Sausage",
+    "vegetarian": null,
+    "servings": 4,
+    "price": 1.84,
+    "shop": "Aldi",
+    "description": null,
+    "image": null,
+    "macros": {
+      "kcal": 449,
+      "protein": 40,
+      "carbs": 53,
+      "fat": 8
+    },
+    "ingredients": [
+      {
+        "name": "Potatoes",
+        "qty": 680,
+        "unit": "g",
+        "kcal": 579.35,
+        "protein": 18.79,
+        "carbs": 132.37,
+        "fat": 1.01
+      },
+      {
+        "name": "Skinny sausages",
+        "qty": 12,
+        "unit": "sausage",
+        "kcal": 817.91,
+        "protein": 116.04,
+        "carbs": 36.5,
+        "fat": 22.27
+      },
+      {
+        "name": "Vegetable medley",
+        "qty": 480,
+        "unit": "g",
+        "kcal": 245.37,
+        "protein": 18.57,
+        "carbs": 35.04,
+        "fat": 1.78
+      },
+      {
+        "name": "Green beans",
+        "qty": 180,
+        "unit": "g",
+        "kcal": 51.12,
+        "protein": 4.48,
+        "carbs": 7.01,
+        "fat": 0.4
+      },
+      {
+        "name": "Olive spread (or butter)",
+        "qty": 15,
+        "unit": "g",
+        "kcal": 68.16,
+        "protein": 0.06,
+        "carbs": 0.11,
+        "fat": 4.9
+      },
+      {
+        "name": "Light cream cheese",
+        "qty": 20,
+        "unit": "g",
+        "kcal": 34.08,
+        "protein": 2.07,
+        "carbs": 0.97,
+        "fat": 1.63
+      },
+      {
+        "name": "Salt, pepper, paprika, garlic powder and mixed herbs",
+        "fixed": true
+      },
+      {
+        "name": "Gravy, to serve (optional, not in the macros)",
+        "fixed": true
+      }
+    ],
+    "instructions": [
+      "Cut the potatoes into 2cm cubes and boil in salted water for 15 minutes until tender.",
+      "Spray the veg and green beans with Frylight, season and roast for 20 minutes at 200°C.",
+      "Air fry the sausages at 190°C for 14 minutes (or oven bake for 18), turning halfway.",
+      "Melt the spread in a pan, add the drained potatoes and mash.",
+      "Stir in the cream cheese and season.",
+      "Divide the mash, sausages and veg between 4 plates. Serve with gravy if you like."
+    ],
+    "tips": null,
+    "swaps": "Use any roast meat instead of the sausages, or veggie sausages to make it vegetarian."
+  },
+  {
+    "id": "hunters-chicken-loaded-potatoes",
+    "title": "Hunters Chicken Loaded Potatoes",
+    "book": "Macro Meals, Micro Budget",
+    "meal": "Mains",
+    "mainIngredient": "Chicken",
+    "vegetarian": null,
+    "servings": 1,
+    "price": 2.49,
+    "shop": "Aldi",
+    "description": null,
+    "image": null,
+    "macros": {
+      "kcal": 454,
+      "protein": 49,
+      "carbs": 50,
+      "fat": 7
+    },
+    "ingredients": [
+      {
+        "name": "Pre-cooked chicken breast",
+        "qty": 150,
+        "unit": "g",
+        "kcal": 209.54,
+        "protein": 38.22,
+        "carbs": 0.98,
+        "fat": 2.22
+      },
+      {
+        "name": "White potato",
+        "qty": 200,
+        "unit": "g",
+        "kcal": 139.69,
+        "protein": 3.29,
+        "carbs": 41.94,
+        "fat": 0.3
+      },
+      {
+        "name": "BBQ sauce",
+        "qty": 15,
+        "unit": "g",
+        "kcal": 20.95,
+        "protein": 0.1,
+        "carbs": 6.88,
+        "fat": 0.03
+      },
+      {
+        "name": "Low-fat cheese",
+        "qty": 30,
+        "unit": "g",
+        "kcal": 83.82,
+        "protein": 7.4,
+        "carbs": 0.2,
+        "fat": 4.45
+      },
+      {
+        "name": "Chilli powder, garlic granules, paprika, salt and pepper",
+        "fixed": true
+      }
+    ],
+    "instructions": [
+      "Dice the potato into 2cm cubes and toss with the seasonings.",
+      "Air fry for 15 minutes at 190°C (or oven bake for 20 at 200°C).",
+      "Warm the BBQ sauce in a pan, add the chicken and break it apart. Season with salt, pepper, paprika and garlic powder.",
+      "Pile the potatoes into a dish, top with the chicken and cheese, and microwave for 90 seconds to melt.",
+      "Add more BBQ sauce over the top if you like."
+    ],
+    "tips": null,
+    "swaps": "Use any meat or veggie alternative. Peri peri sauce works great instead of BBQ."
+  },
+  {
+    "id": "chicken-stir-fry",
+    "title": "Chicken Stir Fry",
+    "book": "Macro Meals, Micro Budget",
+    "meal": "Mains",
+    "mainIngredient": "Chicken",
+    "vegetarian": null,
+    "servings": 2,
+    "price": 2.66,
+    "shop": "Asda",
+    "description": null,
+    "image": null,
+    "macros": {
+      "kcal": 535,
+      "protein": 64,
+      "carbs": 52,
+      "fat": 9
+    },
+    "ingredients": [
+      {
+        "name": "Chicken breast, diced",
+        "qty": 300,
+        "unit": "g",
+        "kcal": 321.58,
+        "protein": 88.7,
+        "carbs": 0.0,
+        "fat": 6.33
+      },
+      {
+        "name": "Family stir fry veg bag",
+        "qty": 600,
+        "unit": "g",
+        "kcal": 204.64,
+        "protein": 13.31,
+        "carbs": 23.07,
+        "fat": 3.38
+      },
+      {
+        "name": "Onion",
+        "qty": 1,
+        "unit": "onion",
+        "kcal": 58.47,
+        "protein": 1.97,
+        "carbs": 10.0,
+        "fat": 0.28
+      },
+      {
+        "name": "Light soy sauce (3 tbsp)",
+        "qty": 45,
+        "unit": "ml",
+        "kcal": 26.31,
+        "protein": 4.44,
+        "carbs": 1.73,
+        "fat": 0.0
+      },
+      {
+        "name": "Ready-to-wok noodles",
+        "qty": 300,
+        "unit": "g",
+        "kcal": 458.99,
+        "protein": 19.59,
+        "carbs": 69.21,
+        "fat": 8.02
+      },
+      {
+        "name": "Salt, pepper, garlic powder, paprika; sesame seeds to garnish",
+        "fixed": true
+      }
+    ],
+    "instructions": [
+      "Fry the chicken in a wok, seasoning with salt, pepper, garlic powder, paprika and 1 tbsp soy sauce. Set aside once cooked.",
+      "Fry the onion in the same wok for 3 minutes until softened.",
+      "Add the stir fry veg, season the same way with another 1 tbsp soy, and fry for 5 minutes until halved in size.",
+      "Add the noodles, the last tbsp of soy and the chicken. Season once more.",
+      "Divide into 2 and garnish with sesame seeds."
+    ],
+    "tips": null,
+    "swaps": "Use any meat or veggie alternative, and any noodles you fancy."
+  },
+  {
+    "id": "chicken-wrap-pizzas",
+    "title": "Chicken Wrap Pizzas",
+    "book": "Macro Meals, Micro Budget",
+    "meal": "Mains",
+    "mainIngredient": "Chicken",
+    "vegetarian": null,
+    "servings": 2,
+    "price": 1.34,
+    "shop": "Asda",
+    "description": "Makes one tomato pizza (474 kcal) and one BBQ pizza (459 kcal). Macros shown are the average.",
+    "image": null,
+    "macros": {
+      "kcal": 467,
+      "protein": 45,
+      "carbs": 44,
+      "fat": 12
+    },
+    "ingredients": [
+      {
+        "name": "Chicken breast",
+        "qty": 200,
+        "unit": "g",
+        "kcal": 235.64,
+        "protein": 55.91,
+        "carbs": 0.0,
+        "fat": 3.19
+      },
+      {
+        "name": "Tortilla wraps",
+        "qty": 2,
+        "unit": "wrap",
+        "kcal": 407.02,
+        "protein": 12.81,
+        "carbs": 62.25,
+        "fat": 9.58
+      },
+      {
+        "name": "Red onion, diced",
+        "qty": 1,
+        "unit": "onion",
+        "kcal": 64.27,
+        "protein": 1.86,
+        "carbs": 13.05,
+        "fat": 0.21
+      },
+      {
+        "name": "Mushrooms, sliced",
+        "qty": 20,
+        "unit": "g",
+        "kcal": 4.28,
+        "protein": 0.58,
+        "carbs": 0.2,
+        "fat": 0.09
+      },
+      {
+        "name": "Tomato purée",
+        "qty": 15,
+        "unit": "g",
+        "kcal": 12.85,
+        "protein": 0.79,
+        "carbs": 1.96,
+        "fat": 0.05
+      },
+      {
+        "name": "BBQ sauce",
+        "qty": 25,
+        "unit": "g",
+        "kcal": 40.17,
+        "protein": 0.23,
+        "carbs": 8.78,
+        "fat": 0.08
+      },
+      {
+        "name": "Sweetcorn",
+        "qty": 10,
+        "unit": "g",
+        "kcal": 9.1,
+        "protein": 0.34,
+        "carbs": 1.51,
+        "fat": 0.15
+      },
+      {
+        "name": "Reduced-fat cheese",
+        "qty": 50,
+        "unit": "g",
+        "kcal": 160.67,
+        "protein": 17.47,
+        "carbs": 0.25,
+        "fat": 10.65
+      },
+      {
+        "name": "Mixed herbs, garlic powder, salt and pepper",
+        "fixed": true
+      }
+    ],
+    "instructions": [
+      "Season the chicken and oven cook for 20 minutes at 180°C (or air fry for 14).",
+      "Fry the onion for 3–4 minutes. Set half aside and fry the mushrooms with the rest.",
+      "Mix the tomato purée with salt, pepper, herbs, garlic powder and a splash of water to make a sauce.",
+      "Slice the chicken. Spread one wrap with the tomato sauce and the other with BBQ sauce.",
+      "Top the BBQ pizza with chicken, sweetcorn, onion and cheese, and the tomato pizza with chicken, mushrooms, onion and cheese.",
+      "Bake at 200°C for 5 minutes, then sprinkle with mixed herbs."
+    ],
+    "tips": "Use whatever toppings you like.",
+    "swaps": "Use any meat or veggie alternative."
+  },
+  {
+    "id": "beefy-beef-sandwich",
+    "title": "Beefy Beef Sandwich",
+    "book": "Macro Meals, Micro Budget",
+    "meal": "Mains",
+    "mainIngredient": "Beef",
+    "vegetarian": null,
+    "servings": 2,
+    "price": 2.26,
+    "shop": "Aldi",
+    "description": null,
+    "image": null,
+    "macros": {
+      "kcal": 555,
+      "protein": 49,
+      "carbs": 54,
+      "fat": 17
+    },
+    "ingredients": [
+      {
+        "name": "Thin-cut beef steak",
+        "qty": 200,
+        "unit": "g",
+        "kcal": 303.79,
+        "protein": 54.51,
+        "carbs": 0.0,
+        "fat": 12.97
+      },
+      {
+        "name": "Panini rolls",
+        "qty": 2,
+        "unit": "roll",
+        "kcal": 537.47,
+        "protein": 19.82,
+        "carbs": 92.95,
+        "fat": 5.76
+      },
+      {
+        "name": "White onion",
+        "qty": 1,
+        "unit": "onion",
+        "kcal": 70.11,
+        "protein": 1.98,
+        "carbs": 13.73,
+        "fat": 0.29
+      },
+      {
+        "name": "Mushrooms",
+        "qty": 100,
+        "unit": "g",
+        "kcal": 23.37,
+        "protein": 3.1,
+        "carbs": 1.06,
+        "fat": 0.58
+      },
+      {
+        "name": "Reduced-fat cheddar",
+        "qty": 50,
+        "unit": "g",
+        "kcal": 175.26,
+        "protein": 18.58,
+        "carbs": 0.26,
+        "fat": 14.41
+      },
+      {
+        "name": "1 tsp mild French mustard",
+        "fixed": true
+      },
+      {
+        "name": "Salt, pepper, garlic powder and Worcestershire sauce",
+        "fixed": true
+      }
+    ],
+    "instructions": [
+      "Thinly slice the onion, mushrooms and steak.",
+      "Fry the onion on a medium-high heat until softened.",
+      "Add the steak and season with salt, pepper, garlic powder and Worcestershire sauce.",
+      "Add the mushrooms, then the mustard.",
+      "Slice the rolls and fill each with half the beef and half the cheese.",
+      "Grill for 3 minutes until the cheese melts."
+    ],
+    "tips": null,
+    "swaps": null
+  },
+  {
+    "id": "mexican-lasagna",
+    "title": "Mexican Lasagna",
+    "book": "Macro Meals, Micro Budget",
+    "meal": "Mains",
+    "mainIngredient": "Beef",
+    "vegetarian": null,
+    "servings": 5,
+    "price": 1.84,
+    "shop": "Aldi / Asda",
+    "description": null,
+    "image": null,
+    "macros": {
+      "kcal": 485,
+      "protein": 41,
+      "carbs": 39,
+      "fat": 17
+    },
+    "ingredients": [
+      {
+        "name": "Tortilla wraps",
+        "qty": 3,
+        "unit": "wrap",
+        "kcal": 539.31,
+        "protein": 15.99,
+        "carbs": 88.46,
+        "fat": 11.94
+      },
+      {
+        "name": "5% fat beef mince",
+        "qty": 500,
+        "unit": "g",
+        "kcal": 591.35,
+        "protein": 104.2,
+        "carbs": 0.0,
+        "fat": 19.89
+      },
+      {
+        "name": "Taco seasoning",
+        "qty": 1,
+        "unit": "packet",
+        "kcal": 85.15,
+        "protein": 1.94,
+        "carbs": 16.17,
+        "fat": 1.33
+      },
+      {
+        "name": "Onions, diced",
+        "qty": 2,
+        "unit": "onion",
+        "kcal": 113.54,
+        "protein": 3.1,
+        "carbs": 24.73,
+        "fat": 0.35
+      },
+      {
+        "name": "Peppers, diced",
+        "qty": 2,
+        "unit": "pepper",
+        "kcal": 75.69,
+        "protein": 3.1,
+        "carbs": 12.18,
+        "fat": 0.88
+      },
+      {
+        "name": "Grated mozzarella",
+        "qty": 250,
+        "unit": "g",
+        "kcal": 709.62,
+        "protein": 55.73,
+        "carbs": 4.76,
+        "fat": 48.63
+      },
+      {
+        "name": "Chopped tomatoes (1 tin)",
+        "qty": 400,
+        "unit": "g",
+        "kcal": 83.26,
+        "protein": 4.65,
+        "carbs": 14.46,
+        "fat": 0.71
+      },
+      {
+        "name": "Red kidney beans, drained (1 tin)",
+        "qty": 240,
+        "unit": "g",
+        "kcal": 227.08,
+        "protein": 16.28,
+        "carbs": 34.24,
+        "fat": 1.27
+      },
+      {
+        "name": "Salt, pepper, paprika and garlic powder",
+        "fixed": true
+      }
+    ],
+    "instructions": [
+      "Preheat the oven to 200°C. Fry the onions for 3–4 minutes until softened.",
+      "Add the mince and season with salt, pepper, paprika, garlic powder and half the taco seasoning.",
+      "Once browned, add the peppers and cook for 3 minutes.",
+      "Add the beans and tomatoes and season again with the rest of the taco seasoning.",
+      "Layer: meat, 25g mozzarella, then 1½ wraps to cover. Repeat.",
+      "Finish with the rest of the meat and the remaining 200g of cheese.",
+      "Bake for 15 minutes, then rest for 5–10 minutes before slicing."
+    ],
+    "tips": "Save most of the cheese for the top.",
+    "swaps": "Use a veggie mince to make it vegetarian."
+  },
+  {
+    "id": "world-s-easiest-chicken-dinner",
+    "title": "World's Easiest Chicken Dinner",
+    "book": "Macro Meals, Micro Budget",
+    "meal": "Mains",
+    "mainIngredient": "Chicken",
+    "vegetarian": null,
+    "servings": 2,
+    "price": 2.7,
+    "shop": "Asda",
+    "description": null,
+    "image": null,
+    "macros": {
+      "kcal": 366,
+      "protein": 37,
+      "carbs": 33,
+      "fat": 8
+    },
+    "ingredients": [
+      {
+        "name": "Chicken breasts (2)",
+        "qty": 300,
+        "unit": "g",
+        "kcal": 281.05,
+        "protein": 59.53,
+        "carbs": 0.0,
+        "fat": 4.1
+      },
+      {
+        "name": "Mixed veg (1 bag)",
+        "qty": 350,
+        "unit": "g",
+        "kcal": 134.14,
+        "protein": 8.1,
+        "carbs": 17.32,
+        "fat": 1.6
+      },
+      {
+        "name": "Buttery & herby baby potatoes (1 pack)",
+        "qty": 360,
+        "unit": "g",
+        "kcal": 291.27,
+        "protein": 5.95,
+        "carbs": 44.55,
+        "fat": 9.85
+      },
+      {
+        "name": "Gravy",
+        "qty": 100,
+        "unit": "ml",
+        "kcal": 25.55,
+        "protein": 0.41,
+        "carbs": 4.12,
+        "fat": 0.46
+      },
+      {
+        "name": "Spice mix: 1 tsp each garlic powder, paprika, mixed herbs and black pepper; ½ tsp chilli flakes; ½ tsp salt",
+        "fixed": true
+      }
+    ],
+    "instructions": [
+      "Mix the spices together in a mug.",
+      "Put the veg on one tray and the chicken on another, and coat each with half the spice mix.",
+      "Roast for 20 minutes at 180°C.",
+      "With 8 minutes to go, microwave the potatoes as per the pack.",
+      "Make the gravy as per the pack.",
+      "Slice the chicken and plate everything up."
+    ],
+    "tips": null,
+    "swaps": "Use a veggie alternative to the chicken, and any side potatoes you like."
+  },
+  {
+    "id": "chicken-fajita-salad",
+    "title": "Chicken Fajita Salad",
+    "book": "Macro Meals, Micro Budget",
+    "meal": "Meal prep",
+    "mainIngredient": "Chicken",
+    "vegetarian": null,
+    "servings": 4,
+    "price": 2.4,
+    "shop": "Aldi / Asda",
+    "description": null,
+    "image": null,
+    "macros": {
+      "kcal": 420,
+      "protein": 38,
+      "carbs": 31,
+      "fat": 14
+    },
+    "ingredients": [
+      {
+        "name": "Chicken breast",
+        "qty": 500,
+        "unit": "g",
+        "kcal": 558.81,
+        "protein": 119.8,
+        "carbs": 0.0,
+        "fat": 6.81
+      },
+      {
+        "name": "White onions",
+        "qty": 2,
+        "unit": "onion",
+        "kcal": 121.92,
+        "protein": 3.19,
+        "carbs": 28.57,
+        "fat": 0.36
+      },
+      {
+        "name": "Peppers",
+        "qty": 2,
+        "unit": "pepper",
+        "kcal": 81.28,
+        "protein": 3.19,
+        "carbs": 14.06,
+        "fat": 0.91
+      },
+      {
+        "name": "Avocado (1 medium)",
+        "qty": 300,
+        "unit": "g",
+        "kcal": 487.69,
+        "protein": 5.99,
+        "carbs": 6.26,
+        "fat": 40.06
+      },
+      {
+        "name": "Tomatoes",
+        "qty": 300,
+        "unit": "g",
+        "kcal": 54.87,
+        "protein": 2.7,
+        "carbs": 9.89,
+        "fat": 0.55
+      },
+      {
+        "name": "Romaine lettuce",
+        "qty": 2,
+        "unit": "head",
+        "kcal": 85.35,
+        "protein": 5.99,
+        "carbs": 17.58,
+        "fat": 1.36
+      },
+      {
+        "name": "Cucumber (½)",
+        "qty": 200,
+        "unit": "g",
+        "kcal": 24.38,
+        "protein": 1.2,
+        "carbs": 4.4,
+        "fat": 0.18
+      },
+      {
+        "name": "Fajita seasoning",
+        "qty": 1,
+        "unit": "packet",
+        "kcal": 91.44,
+        "protein": 2.0,
+        "carbs": 18.68,
+        "fat": 1.36
+      },
+      {
+        "name": "Salsa (dressing)",
+        "qty": 150,
+        "unit": "g",
+        "kcal": 60.96,
+        "protein": 1.95,
+        "carbs": 11.54,
+        "fat": 0.41
+      },
+      {
+        "name": "Fat-free yoghurt (dressing)",
+        "qty": 100,
+        "unit": "g",
+        "kcal": 56.9,
+        "protein": 5.59,
+        "carbs": 8.57,
+        "fat": 0.18
+      },
+      {
+        "name": "Light mayo (dressing)",
+        "qty": 15,
+        "unit": "g",
+        "kcal": 41.15,
+        "protein": 0.1,
+        "carbs": 1.15,
+        "fat": 3.68
+      },
+      {
+        "name": "Sriracha (dressing)",
+        "qty": 15,
+        "unit": "g",
+        "kcal": 15.24,
+        "protein": 0.3,
+        "carbs": 3.3,
+        "fat": 0.14
+      },
+      {
+        "name": "1 tbsp lemon juice; jalapeños and a dash of their juice (optional)",
+        "fixed": true
+      }
+    ],
+    "instructions": [
+      "Preheat the oven to 200°C.",
+      "Slice the onions, peppers and chicken into a large ovenproof dish. Season with salt, pepper, garlic powder and three quarters of the fajita seasoning, and roast for 20 minutes.",
+      "Slice the lettuce into the biggest bowl you have.",
+      "Slice the tomatoes, avocado and cucumber and add to the bowl with the jalapeños if using.",
+      "Mix the dressing ingredients and toss through the salad.",
+      "Serve the chicken hot with the salad, or let it cool and mix in if storing.",
+      "Divide into 4 portions."
+    ],
+    "tips": "Add the dressing on the day you eat it to keep the salad crunchy. Cut everything to roughly the same size.",
+    "swaps": "Use any protein or veg you fancy."
+  },
+  {
+    "id": "salt-and-pepper-chicken-noodles",
+    "title": "Salt & Pepper Chicken Noodles",
+    "book": "Macro Meals, Micro Budget",
+    "meal": "Meal prep",
+    "mainIngredient": "Chicken",
+    "vegetarian": null,
+    "servings": 4,
+    "price": 1.55,
+    "shop": "Aldi",
+    "description": null,
+    "image": null,
+    "macros": {
+      "kcal": 407,
+      "protein": 31,
+      "carbs": 65,
+      "fat": 3
+    },
+    "ingredients": [
+      {
+        "name": "Egg noodles (dry weight)",
+        "qty": 250,
+        "unit": "g",
+        "kcal": 884.52,
+        "protein": 30.5,
+        "carbs": 181.75,
+        "fat": 5.43
+      },
+      {
+        "name": "Chicken breasts (2 medium)",
+        "qty": 320,
+        "unit": "g",
+        "kcal": 345.94,
+        "protein": 78.08,
+        "carbs": 0.0,
+        "fat": 4.17
+      },
+      {
+        "name": "White onions",
+        "qty": 2,
+        "unit": "onion",
+        "kcal": 117.94,
+        "protein": 3.25,
+        "carbs": 27.0,
+        "fat": 0.35
+      },
+      {
+        "name": "Peppers",
+        "qty": 2,
+        "unit": "pepper",
+        "kcal": 78.62,
+        "protein": 3.25,
+        "carbs": 13.29,
+        "fat": 0.87
+      },
+      {
+        "name": "Spring onions",
+        "qty": 60,
+        "unit": "g",
+        "kcal": 17.69,
+        "protein": 1.1,
+        "carbs": 3.12,
+        "fat": 0.26
+      },
+      {
+        "name": "Light soy sauce (4 tbsp)",
+        "qty": 60,
+        "unit": "ml",
+        "kcal": 35.38,
+        "protein": 4.88,
+        "carbs": 3.12,
+        "fat": 0.0
+      },
+      {
+        "name": "Salt & pepper seasoning (1 packet)",
+        "qty": 35,
+        "unit": "g",
+        "kcal": 96.31,
+        "protein": 2.85,
+        "carbs": 18.17,
+        "fat": 0.91
+      },
+      {
+        "name": "Cornflour",
+        "qty": 15,
+        "unit": "g",
+        "kcal": 51.6,
+        "protein": 0.09,
+        "carbs": 13.55,
+        "fat": 0.01
+      }
+    ],
+    "instructions": [
+      "Dice the chicken into 2cm cubes. Season with salt, pepper, garlic powder, a third of the seasoning packet, 1 tbsp soy sauce and the cornflour.",
+      "Fry for 8 minutes until cooked through, then set aside.",
+      "Cut the onions and peppers into 2cm pieces and fry in the same pan for 5–6 minutes, seasoning with another third of the packet and 1 tbsp soy.",
+      "Cook the noodles as per the packet. Cut the white part of the spring onions into 2cm pieces and finely slice the green part for garnish.",
+      "Add the noodles, chicken and spring onion whites to the pan with the last of the seasoning and soy.",
+      "Divide into 4 and garnish with the spring onion greens."
+    ],
+    "tips": "Keep the chicken, onion and pepper pieces the same size.",
+    "swaps": "Use any protein or veggie alternative. Also great with rice or chips instead of noodles."
+  },
+  {
+    "id": "meatless-protein-pasta",
+    "title": "Meatless Protein Pasta",
+    "book": "Macro Meals, Micro Budget",
+    "meal": "Meal prep",
+    "mainIngredient": "Pasta",
+    "vegetarian": "V",
+    "servings": 2,
+    "price": 1.42,
+    "shop": "Aldi",
+    "description": null,
+    "image": null,
+    "macros": {
+      "kcal": 470,
+      "protein": 31,
+      "carbs": 66,
+      "fat": 8
+    },
+    "ingredients": [
+      {
+        "name": "Pasta (dry weight)",
+        "qty": 100,
+        "unit": "g",
+        "kcal": 332.37,
+        "protein": 11.16,
+        "carbs": 66.75,
+        "fat": 1.44
+      },
+      {
+        "name": "Red onions",
+        "qty": 2,
+        "unit": "onion",
+        "kcal": 112.35,
+        "protein": 2.86,
+        "carbs": 24.44,
+        "fat": 0.38
+      },
+      {
+        "name": "Medium carrots",
+        "qty": 2,
+        "unit": "carrot",
+        "kcal": 46.81,
+        "protein": 0.89,
+        "carbs": 10.34,
+        "fat": 0.38
+      },
+      {
+        "name": "Grated mozzarella",
+        "qty": 50,
+        "unit": "g",
+        "kcal": 140.44,
+        "protein": 10.27,
+        "carbs": 0.94,
+        "fat": 10.54
+      },
+      {
+        "name": "Fat-free cottage cheese",
+        "qty": 300,
+        "unit": "g",
+        "kcal": 191.0,
+        "protein": 33.48,
+        "carbs": 10.72,
+        "fat": 0.86
+      },
+      {
+        "name": "Tomato & garlic pasta sauce",
+        "qty": 250,
+        "unit": "g",
+        "kcal": 117.03,
+        "protein": 3.35,
+        "carbs": 18.8,
+        "fat": 2.4
+      },
+      {
+        "name": "50ml pasta water",
+        "fixed": true
+      },
+      {
+        "name": "Parsley and red chilli flakes, to garnish",
+        "fixed": true
+      }
+    ],
+    "instructions": [
+      "Cook the pasta as per the packet.",
+      "Dice the onions and fry in a little Frylight.",
+      "Dice the carrots, add to the pan, season with salt, pepper, paprika and garlic powder, and cook for 5 minutes.",
+      "Save 50ml of pasta water. Blend the cottage cheese, pasta sauce, pasta water and cooked veg until smooth.",
+      "Return the sauce to the pan and stir in the pasta.",
+      "Add the mozzarella and season to taste.",
+      "Divide into 2 and garnish with parsley and chilli flakes."
+    ],
+    "tips": "Double up for 4 lunches. For a chunkier sauce, don't blend the veg.",
+    "swaps": "Add any extra protein you like."
+  }
+]
